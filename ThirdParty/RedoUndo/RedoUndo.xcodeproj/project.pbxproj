@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		232DAE621394B4F3005339DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232DAE611394B4F3005339DA /* UIKit.framework */; };
+		232DAE641394B4F3005339DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232DAE631394B4F3005339DA /* Foundation.framework */; };
+		232DAE661394B4F3005339DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232DAE651394B4F3005339DA /* CoreGraphics.framework */; };
+		232DAE6C1394B4F3005339DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 232DAE6A1394B4F3005339DA /* InfoPlist.strings */; };
+		232DAE6F1394B4F3005339DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 232DAE6E1394B4F3005339DA /* main.m */; };
+		232DAE721394B4F3005339DA /* RedoUndoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 232DAE711394B4F3005339DA /* RedoUndoAppDelegate.m */; };
+		232DAE751394B4F3005339DA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232DAE731394B4F3005339DA /* MainWindow.xib */; };
+		232DAE7F1394B730005339DA /* DrawingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232DAE7C1394B730005339DA /* DrawingController.m */; };
+		232DAE801394B730005339DA /* MyLineDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 232DAE7E1394B730005339DA /* MyLineDrawingView.m */; };
+		966C70011609FE07002537BD /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966C6FFF1609FE07002537BD /* MainWindow-iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		232DAE5D1394B4F3005339DA /* RedoUndo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedoUndo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		232DAE611394B4F3005339DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		232DAE631394B4F3005339DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		232DAE651394B4F3005339DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		232DAE691394B4F3005339DA /* RedoUndo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedoUndo-Info.plist"; sourceTree = "<group>"; };
+		232DAE6B1394B4F3005339DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		232DAE6D1394B4F3005339DA /* RedoUndo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedoUndo-Prefix.pch"; sourceTree = "<group>"; };
+		232DAE6E1394B4F3005339DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		232DAE701394B4F3005339DA /* RedoUndoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedoUndoAppDelegate.h; sourceTree = "<group>"; };
+		232DAE711394B4F3005339DA /* RedoUndoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedoUndoAppDelegate.m; sourceTree = "<group>"; };
+		232DAE741394B4F3005339DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		232DAE7B1394B730005339DA /* DrawingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingController.h; sourceTree = "<group>"; };
+		232DAE7C1394B730005339DA /* DrawingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingController.m; sourceTree = "<group>"; };
+		232DAE7D1394B730005339DA /* MyLineDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLineDrawingView.h; sourceTree = "<group>"; };
+		232DAE7E1394B730005339DA /* MyLineDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLineDrawingView.m; sourceTree = "<group>"; };
+		966C70001609FE07002537BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		232DAE5A1394B4F3005339DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232DAE621394B4F3005339DA /* UIKit.framework in Frameworks */,
+				232DAE641394B4F3005339DA /* Foundation.framework in Frameworks */,
+				232DAE661394B4F3005339DA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232DAE521394B4F2005339DA = {
+			isa = PBXGroup;
+			children = (
+				232DAE671394B4F3005339DA /* RedoUndo */,
+				232DAE601394B4F3005339DA /* Frameworks */,
+				232DAE5E1394B4F3005339DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		232DAE5E1394B4F3005339DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232DAE5D1394B4F3005339DA /* RedoUndo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		232DAE601394B4F3005339DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				232DAE611394B4F3005339DA /* UIKit.framework */,
+				232DAE631394B4F3005339DA /* Foundation.framework */,
+				232DAE651394B4F3005339DA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		232DAE671394B4F3005339DA /* RedoUndo */ = {
+			isa = PBXGroup;
+			children = (
+				966C6FFE1609FE06002537BD /* iPad */,
+				232DAE7B1394B730005339DA /* DrawingController.h */,
+				232DAE7C1394B730005339DA /* DrawingController.m */,
+				232DAE7D1394B730005339DA /* MyLineDrawingView.h */,
+				232DAE7E1394B730005339DA /* MyLineDrawingView.m */,
+				232DAE701394B4F3005339DA /* RedoUndoAppDelegate.h */,
+				232DAE711394B4F3005339DA /* RedoUndoAppDelegate.m */,
+				232DAE731394B4F3005339DA /* MainWindow.xib */,
+				232DAE681394B4F3005339DA /* Supporting Files */,
+			);
+			path = RedoUndo;
+			sourceTree = "<group>";
+		};
+		232DAE681394B4F3005339DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				232DAE691394B4F3005339DA /* RedoUndo-Info.plist */,
+				232DAE6A1394B4F3005339DA /* InfoPlist.strings */,
+				232DAE6D1394B4F3005339DA /* RedoUndo-Prefix.pch */,
+				232DAE6E1394B4F3005339DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		966C6FFE1609FE06002537BD /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				966C6FFF1609FE07002537BD /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		232DAE5C1394B4F3005339DA /* RedoUndo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232DAE781394B4F3005339DA /* Build configuration list for PBXNativeTarget "RedoUndo" */;
+			buildPhases = (
+				232DAE591394B4F3005339DA /* Sources */,
+				232DAE5A1394B4F3005339DA /* Frameworks */,
+				232DAE5B1394B4F3005339DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedoUndo;
+			productName = RedoUndo;
+			productReference = 232DAE5D1394B4F3005339DA /* RedoUndo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		232DAE541394B4F2005339DA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 232DAE571394B4F2005339DA /* Build configuration list for PBXProject "RedoUndo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 232DAE521394B4F2005339DA;
+			productRefGroup = 232DAE5E1394B4F3005339DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				232DAE5C1394B4F3005339DA /* RedoUndo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		232DAE5B1394B4F3005339DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232DAE6C1394B4F3005339DA /* InfoPlist.strings in Resources */,
+				232DAE751394B4F3005339DA /* MainWindow.xib in Resources */,
+				966C70011609FE07002537BD /* MainWindow-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		232DAE591394B4F3005339DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232DAE6F1394B4F3005339DA /* main.m in Sources */,
+				232DAE721394B4F3005339DA /* RedoUndoAppDelegate.m in Sources */,
+				232DAE7F1394B730005339DA /* DrawingController.m in Sources */,
+				232DAE801394B730005339DA /* MyLineDrawingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		232DAE6A1394B4F3005339DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232DAE6B1394B4F3005339DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		232DAE731394B4F3005339DA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232DAE741394B4F3005339DA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		966C6FFF1609FE07002537BD /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966C70001609FE07002537BD /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		232DAE761394B4F3005339DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		232DAE771394B4F3005339DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		232DAE791394B4F3005339DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sebastian Kruschwitz (756H674XWG)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedoUndo/RedoUndo-Prefix.pch";
+				INFOPLIST_FILE = "RedoUndo/RedoUndo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "34229515-79FB-4E5E-9860-D110159FA804";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		232DAE7A1394B4F3005339DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedoUndo/RedoUndo-Prefix.pch";
+				INFOPLIST_FILE = "RedoUndo/RedoUndo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		232DAE571394B4F2005339DA /* Build configuration list for PBXProject "RedoUndo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232DAE761394B4F3005339DA /* Debug */,
+				232DAE771394B4F3005339DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232DAE781394B4F3005339DA /* Build configuration list for PBXNativeTarget "RedoUndo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232DAE791394B4F3005339DA /* Debug */,
+				232DAE7A1394B4F3005339DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 232DAE541394B4F2005339DA /* Project object */;
+}

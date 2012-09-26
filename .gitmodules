@@ -4,3 +4,9 @@
 [submodule "ThirdParty/CGPathHitTesting"]
 	path = ThirdParty/CGPathHitTesting
 	url = git://github.com/ole/CGPathHitTesting.git
+[submodule "ThirdParty/smooth-drawing"]
+	path = ThirdParty/smooth-drawing
+	url = git://github.com/krzysztofzablocki/smooth-drawing.git
+[submodule "ThirdParty/Smooth-Line-View"]
+	path = ThirdParty/Smooth-Line-View
+	url = git://github.com/levinunnink/Smooth-Line-View.git

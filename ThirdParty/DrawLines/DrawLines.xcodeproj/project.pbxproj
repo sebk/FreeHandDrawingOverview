@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2346AF55138249E800D72E49 /* pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2346AF54138249E800D72E49 /* pattern.jpg */; };
+		2346AF5713824C1C00D72E49 /* pattern1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2346AF5613824C1B00D72E49 /* pattern1.jpg */; };
+		2346AF5913824CAF00D72E49 /* pattern2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2346AF5813824CAF00D72E49 /* pattern2.jpg */; };
+		2346AF6E1382647500D72E49 /* MyPatternBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 2346AF6D1382647400D72E49 /* MyPatternBrush.m */; };
+		23B7818A137A56930009732A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B78189137A56930009732A /* UIKit.framework */; };
+		23B7818C137A56930009732A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B7818B137A56930009732A /* Foundation.framework */; };
+		23B7818E137A56930009732A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B7818D137A56930009732A /* CoreGraphics.framework */; };
+		23B78194137A56930009732A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23B78192137A56930009732A /* InfoPlist.strings */; };
+		23B78197137A56930009732A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B78196137A56930009732A /* main.m */; };
+		23B7819A137A56930009732A /* DrawLinesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B78199137A56930009732A /* DrawLinesAppDelegate.m */; };
+		23B7819D137A56930009732A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23B7819B137A56930009732A /* MainWindow.xib */; };
+		23B781A6137A56BC0009732A /* DrawingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B781A4137A56BC0009732A /* DrawingController.m */; };
+		23B781A7137A56BC0009732A /* DrawingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23B781A5137A56BC0009732A /* DrawingController.xib */; };
+		23B781AA137A67130009732A /* MyLineDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B781A9137A67130009732A /* MyLineDrawingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2346AF54138249E800D72E49 /* pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern.jpg; sourceTree = "<group>"; };
+		2346AF5613824C1B00D72E49 /* pattern1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern1.jpg; sourceTree = "<group>"; };
+		2346AF5813824CAF00D72E49 /* pattern2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern2.jpg; sourceTree = "<group>"; };
+		2346AF6C1382647400D72E49 /* MyPatternBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPatternBrush.h; sourceTree = "<group>"; };
+		2346AF6D1382647400D72E49 /* MyPatternBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPatternBrush.m; sourceTree = "<group>"; };
+		23B78185137A56930009732A /* DrawLines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawLines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B78189137A56930009732A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23B7818B137A56930009732A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23B7818D137A56930009732A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23B78191137A56930009732A /* DrawLines-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawLines-Info.plist"; sourceTree = "<group>"; };
+		23B78193137A56930009732A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23B78195137A56930009732A /* DrawLines-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawLines-Prefix.pch"; sourceTree = "<group>"; };
+		23B78196137A56930009732A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23B78198137A56930009732A /* DrawLinesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawLinesAppDelegate.h; sourceTree = "<group>"; };
+		23B78199137A56930009732A /* DrawLinesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawLinesAppDelegate.m; sourceTree = "<group>"; };
+		23B7819C137A56930009732A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		23B781A3137A56BC0009732A /* DrawingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingController.h; sourceTree = "<group>"; };
+		23B781A4137A56BC0009732A /* DrawingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingController.m; sourceTree = "<group>"; };
+		23B781A5137A56BC0009732A /* DrawingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawingController.xib; sourceTree = "<group>"; };
+		23B781A8137A67130009732A /* MyLineDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLineDrawingView.h; sourceTree = "<group>"; };
+		23B781A9137A67130009732A /* MyLineDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLineDrawingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23B78182137A56930009732A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B7818A137A56930009732A /* UIKit.framework in Frameworks */,
+				23B7818C137A56930009732A /* Foundation.framework in Frameworks */,
+				23B7818E137A56930009732A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B7817A137A56930009732A = {
+			isa = PBXGroup;
+			children = (
+				23B7818F137A56930009732A /* DrawLines */,
+				23B78188137A56930009732A /* Frameworks */,
+				23B78186137A56930009732A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23B78186137A56930009732A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23B78185137A56930009732A /* DrawLines.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B78188137A56930009732A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23B78189137A56930009732A /* UIKit.framework */,
+				23B7818B137A56930009732A /* Foundation.framework */,
+				23B7818D137A56930009732A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23B7818F137A56930009732A /* DrawLines */ = {
+			isa = PBXGroup;
+			children = (
+				23B78198137A56930009732A /* DrawLinesAppDelegate.h */,
+				23B78199137A56930009732A /* DrawLinesAppDelegate.m */,
+				23B7819B137A56930009732A /* MainWindow.xib */,
+				23B78190137A56930009732A /* Supporting Files */,
+				23B781A3137A56BC0009732A /* DrawingController.h */,
+				23B781A4137A56BC0009732A /* DrawingController.m */,
+				23B781A5137A56BC0009732A /* DrawingController.xib */,
+				23B781A8137A67130009732A /* MyLineDrawingView.h */,
+				23B781A9137A67130009732A /* MyLineDrawingView.m */,
+				2346AF6C1382647400D72E49 /* MyPatternBrush.h */,
+				2346AF6D1382647400D72E49 /* MyPatternBrush.m */,
+			);
+			path = DrawLines;
+			sourceTree = "<group>";
+		};
+		23B78190137A56930009732A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2346AF5813824CAF00D72E49 /* pattern2.jpg */,
+				2346AF5613824C1B00D72E49 /* pattern1.jpg */,
+				2346AF54138249E800D72E49 /* pattern.jpg */,
+				23B78191137A56930009732A /* DrawLines-Info.plist */,
+				23B78192137A56930009732A /* InfoPlist.strings */,
+				23B78195137A56930009732A /* DrawLines-Prefix.pch */,
+				23B78196137A56930009732A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23B78184137A56930009732A /* DrawLines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B781A0137A56930009732A /* Build configuration list for PBXNativeTarget "DrawLines" */;
+			buildPhases = (
+				23B78181137A56930009732A /* Sources */,
+				23B78182137A56930009732A /* Frameworks */,
+				23B78183137A56930009732A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawLines;
+			productName = DrawLines;
+			productReference = 23B78185137A56930009732A /* DrawLines.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23B7817C137A56930009732A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 23B7817F137A56930009732A /* Build configuration list for PBXProject "DrawLines" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23B7817A137A56930009732A;
+			productRefGroup = 23B78186137A56930009732A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23B78184137A56930009732A /* DrawLines */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23B78183137A56930009732A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B78194137A56930009732A /* InfoPlist.strings in Resources */,
+				23B7819D137A56930009732A /* MainWindow.xib in Resources */,
+				23B781A7137A56BC0009732A /* DrawingController.xib in Resources */,
+				2346AF55138249E800D72E49 /* pattern.jpg in Resources */,
+				2346AF5713824C1C00D72E49 /* pattern1.jpg in Resources */,
+				2346AF5913824CAF00D72E49 /* pattern2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23B78181137A56930009732A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B78197137A56930009732A /* main.m in Sources */,
+				23B7819A137A56930009732A /* DrawLinesAppDelegate.m in Sources */,
+				23B781A6137A56BC0009732A /* DrawingController.m in Sources */,
+				23B781AA137A67130009732A /* MyLineDrawingView.m in Sources */,
+				2346AF6E1382647500D72E49 /* MyPatternBrush.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23B78192137A56930009732A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B78193137A56930009732A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23B7819B137A56930009732A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B7819C137A56930009732A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23B7819E137A56930009732A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		23B7819F137A56930009732A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		23B781A1137A56930009732A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sebastian Kruschwitz (756H674XWG)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawLines/DrawLines-Prefix.pch";
+				INFOPLIST_FILE = "DrawLines/DrawLines-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "34229515-79FB-4E5E-9860-D110159FA804";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23B781A2137A56930009732A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawLines/DrawLines-Prefix.pch";
+				INFOPLIST_FILE = "DrawLines/DrawLines-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23B7817F137A56930009732A /* Build configuration list for PBXProject "DrawLines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B7819E137A56930009732A /* Debug */,
+				23B7819F137A56930009732A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B781A0137A56930009732A /* Build configuration list for PBXNativeTarget "DrawLines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B781A1137A56930009732A /* Debug */,
+				23B781A2137A56930009732A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23B7817C137A56930009732A /* Project object */;
+}

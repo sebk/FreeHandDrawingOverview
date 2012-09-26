@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADFB8184141CCD950079512C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFB8183141CCD950079512C /* UIKit.framework */; };
+		ADFB8186141CCD950079512C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFB8185141CCD950079512C /* Foundation.framework */; };
+		ADFB8188141CCD950079512C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFB8187141CCD950079512C /* CoreGraphics.framework */; };
+		ADFB818E141CCD950079512C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADFB818C141CCD950079512C /* InfoPlist.strings */; };
+		ADFB8191141CCD950079512C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFB8190141CCD950079512C /* main.m */; };
+		ADFB8194141CCD950079512C /* LineSmoothingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFB8193141CCD950079512C /* LineSmoothingAppDelegate.m */; };
+		ADFB8197141CCD950079512C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADFB8195141CCD950079512C /* MainWindow.xib */; };
+		ADFB819A141CCD950079512C /* LineSmoothingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFB8199141CCD950079512C /* LineSmoothingViewController.m */; };
+		ADFB819D141CCD950079512C /* LineSmoothingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADFB819B141CCD950079512C /* LineSmoothingViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADFB817F141CCD950079512C /* LineSmoothing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineSmoothing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFB8183141CCD950079512C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADFB8185141CCD950079512C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADFB8187141CCD950079512C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADFB818B141CCD950079512C /* LineSmoothing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LineSmoothing-Info.plist"; sourceTree = "<group>"; };
+		ADFB818D141CCD950079512C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADFB818F141CCD950079512C /* LineSmoothing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LineSmoothing-Prefix.pch"; sourceTree = "<group>"; };
+		ADFB8190141CCD950079512C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADFB8192141CCD950079512C /* LineSmoothingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineSmoothingAppDelegate.h; sourceTree = "<group>"; };
+		ADFB8193141CCD950079512C /* LineSmoothingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineSmoothingAppDelegate.m; sourceTree = "<group>"; };
+		ADFB8196141CCD950079512C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		ADFB8198141CCD950079512C /* LineSmoothingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineSmoothingViewController.h; sourceTree = "<group>"; };
+		ADFB8199141CCD950079512C /* LineSmoothingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineSmoothingViewController.m; sourceTree = "<group>"; };
+		ADFB819C141CCD950079512C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LineSmoothingViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADFB817C141CCD950079512C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFB8184141CCD950079512C /* UIKit.framework in Frameworks */,
+				ADFB8186141CCD950079512C /* Foundation.framework in Frameworks */,
+				ADFB8188141CCD950079512C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADFB8174141CCD950079512C = {
+			isa = PBXGroup;
+			children = (
+				ADFB8189141CCD950079512C /* LineSmoothing */,
+				ADFB8182141CCD950079512C /* Frameworks */,
+				ADFB8180141CCD950079512C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADFB8180141CCD950079512C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADFB817F141CCD950079512C /* LineSmoothing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADFB8182141CCD950079512C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADFB8183141CCD950079512C /* UIKit.framework */,
+				ADFB8185141CCD950079512C /* Foundation.framework */,
+				ADFB8187141CCD950079512C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADFB8189141CCD950079512C /* LineSmoothing */ = {
+			isa = PBXGroup;
+			children = (
+				ADFB8192141CCD950079512C /* LineSmoothingAppDelegate.h */,
+				ADFB8193141CCD950079512C /* LineSmoothingAppDelegate.m */,
+				ADFB8195141CCD950079512C /* MainWindow.xib */,
+				ADFB8198141CCD950079512C /* LineSmoothingViewController.h */,
+				ADFB8199141CCD950079512C /* LineSmoothingViewController.m */,
+				ADFB819B141CCD950079512C /* LineSmoothingViewController.xib */,
+				ADFB818A141CCD950079512C /* Supporting Files */,
+			);
+			path = LineSmoothing;
+			sourceTree = "<group>";
+		};
+		ADFB818A141CCD950079512C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADFB818B141CCD950079512C /* LineSmoothing-Info.plist */,
+				ADFB818C141CCD950079512C /* InfoPlist.strings */,
+				ADFB818F141CCD950079512C /* LineSmoothing-Prefix.pch */,
+				ADFB8190141CCD950079512C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADFB817E141CCD950079512C /* LineSmoothing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADFB81A0141CCD950079512C /* Build configuration list for PBXNativeTarget "LineSmoothing" */;
+			buildPhases = (
+				ADFB817B141CCD950079512C /* Sources */,
+				ADFB817C141CCD950079512C /* Frameworks */,
+				ADFB817D141CCD950079512C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LineSmoothing;
+			productName = LineSmoothing;
+			productReference = ADFB817F141CCD950079512C /* LineSmoothing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADFB8176141CCD950079512C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ADFB8179141CCD950079512C /* Build configuration list for PBXProject "LineSmoothing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADFB8174141CCD950079512C;
+			productRefGroup = ADFB8180141CCD950079512C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADFB817E141CCD950079512C /* LineSmoothing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADFB817D141CCD950079512C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFB818E141CCD950079512C /* InfoPlist.strings in Resources */,
+				ADFB8197141CCD950079512C /* MainWindow.xib in Resources */,
+				ADFB819D141CCD950079512C /* LineSmoothingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADFB817B141CCD950079512C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFB8191141CCD950079512C /* main.m in Sources */,
+				ADFB8194141CCD950079512C /* LineSmoothingAppDelegate.m in Sources */,
+				ADFB819A141CCD950079512C /* LineSmoothingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADFB818C141CCD950079512C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFB818D141CCD950079512C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADFB8195141CCD950079512C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFB8196141CCD950079512C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		ADFB819B141CCD950079512C /* LineSmoothingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFB819C141CCD950079512C /* en */,
+			);
+			name = LineSmoothingViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADFB819E141CCD950079512C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADFB819F141CCD950079512C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		ADFB81A1141CCD950079512C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sebastian Kruschwitz (756H674XWG)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LineSmoothing/LineSmoothing-Prefix.pch";
+				INFOPLIST_FILE = "LineSmoothing/LineSmoothing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "34229515-79FB-4E5E-9860-D110159FA804";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADFB81A2141CCD950079512C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LineSmoothing/LineSmoothing-Prefix.pch";
+				INFOPLIST_FILE = "LineSmoothing/LineSmoothing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADFB8179141CCD950079512C /* Build configuration list for PBXProject "LineSmoothing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFB819E141CCD950079512C /* Debug */,
+				ADFB819F141CCD950079512C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADFB81A0141CCD950079512C /* Build configuration list for PBXNativeTarget "LineSmoothing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFB81A1141CCD950079512C /* Debug */,
+				ADFB81A2141CCD950079512C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADFB8176141CCD950079512C /* Project object */;
+}
