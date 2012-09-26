@@ -1,0 +1,6 @@
+[submodule "ThirdParty/Drawing"]
+	path = ThirdParty/Drawing
+	url = git://github.com/saturngod/Drawing.git
+[submodule "ThirdParty/CGPathHitTesting"]
+	path = ThirdParty/CGPathHitTesting
+	url = git://github.com/ole/CGPathHitTesting.git
