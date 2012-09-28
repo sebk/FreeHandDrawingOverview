@@ -24,9 +24,6 @@ CGPoint midPoint(CGPoint p1, CGPoint p2);
 static const CGFloat kPointMinDistance = 5;
 static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDistance;
 
-@synthesize lineColor = _lineColor;
-@synthesize lineWidth = _lineWidth;
-
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
@@ -112,7 +109,6 @@ CGPoint middlePoint(CGPoint p1, CGPoint p2) {
 
 
 -(void)drawToBuffer {
-    
     CGContextSetLineCap(offScreenBuffer, kCGLineCapRound);
     CGContextSetLineJoin(offScreenBuffer, kCGLineJoinRound);
     CGContextSetAllowsAntialiasing(offScreenBuffer, true);

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PaintSuperview.h"
 
-@interface PaintingSampleSmoothView : UIView {
+@interface PaintingSampleSmoothView : PaintSuperview {
     void *cacheBitmap;
     CGContextRef cacheContext;
     float hue;
@@ -20,6 +21,7 @@
 }
 
 @property(nonatomic, readwrite) CGContextRef cacheContext;
+
 
 
 - (BOOL) initContext:(CGSize)size;

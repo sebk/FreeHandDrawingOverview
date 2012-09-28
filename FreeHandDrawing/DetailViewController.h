@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PaintSuperview.h"
 
-@interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface DetailViewController : UIViewController <UISplitViewControllerDelegate, UIScrollViewDelegate>
 
-@property (strong, nonatomic) UIView *detailItem;
+@property (strong, nonatomic) PaintSuperview *detailItem;
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end

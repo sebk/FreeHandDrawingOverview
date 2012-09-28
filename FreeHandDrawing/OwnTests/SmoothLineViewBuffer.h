@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PaintSuperview.h"
 
-@interface SmoothLineViewBuffer : UIView {
+@interface SmoothLineViewBuffer : PaintSuperview {
 @private
     CGPoint currentPoint;
     CGPoint previousPoint1;
@@ -17,8 +18,7 @@
     CGContextRef offScreenBuffer;
 }
 
-@property (nonatomic, retain) UIColor *lineColor;
-@property (nonatomic, readwrite) CGFloat lineWidth;
+
 
 -(void)initNewBuffer;
 

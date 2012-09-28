@@ -8,8 +8,6 @@
 
 #import "DrawLinesTest.h"
 
-#define LINEWIDTH 10
-
 @implementation DrawLinesTest
 
 static const CGFloat kPointMinDistance = 5;
@@ -24,10 +22,8 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
         myPath.lineCapStyle = kCGLineCapRound;
         myPath.lineJoinStyle = kCGLineJoinRound;
         myPath.miterLimit = 0;
-        myPath.lineWidth = LINEWIDTH;
-        _lineColor = [UIColor blackColor];
-        
-        
+        myPath.lineWidth = DEFAULT_WIDTH;
+        self.lineColor = DEFAULT_COLOR;
     }
     return self;
 }
@@ -42,7 +38,7 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
     
     CGContextSaveGState(UIGraphicsGetCurrentContext());
     
-    [_lineColor setStroke];
+    [self.lineColor setStroke];
     [myPath strokeWithBlendMode:kCGBlendModeNormal alpha:1.0];
     
     CGContextRestoreGState(UIGraphicsGetCurrentContext());

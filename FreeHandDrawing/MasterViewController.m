@@ -114,7 +114,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 
-    UIView* object = nil;
+    PaintSuperview* object = nil;
     
     switch (indexPath.row) {
         case 0: {

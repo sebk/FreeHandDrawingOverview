@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PaintSuperview.h"
 
-@interface ArrayDrawingView : UIView {
+@interface ArrayDrawingView : PaintSuperview {
     UIBezierPath *currentPath;
     NSMutableDictionary *currentDict;
     NSMutableArray *pathArray;
 }
 
-@property(nonatomic, strong) UIColor *currentColor;
 
 @end

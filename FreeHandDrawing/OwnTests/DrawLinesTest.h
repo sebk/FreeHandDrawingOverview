@@ -8,14 +8,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PaintSuperview.h"
 
-@interface DrawLinesTest : UIView {
+@interface DrawLinesTest : PaintSuperview {
     UIBezierPath *myPath;
     
     CGPoint currentPoint;
     CGPoint previousPoint;
 }
 
-@property(strong, nonatomic) UIColor *lineColor;
+
 
 @end

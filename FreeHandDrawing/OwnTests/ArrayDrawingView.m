@@ -20,15 +20,19 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
     if (self) {
         // Initialization code
         pathArray = [NSMutableArray array];
-        _currentColor = [UIColor yellowColor];
+        self.lineWidth = DEFAULT_WIDTH;
+        self.lineColor = DEFAULT_COLOR;
+        self.backgroundColor = [UIColor whiteColor];
     }
     return self;
 }
 
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    NSLog(@"touchesBegan");
+    
     UIBezierPath *myPath = [[UIBezierPath alloc] init];
-    myPath.lineWidth = 10;
+    myPath.lineWidth = self.lineWidth;
     myPath.lineCapStyle = kCGLineCapRound;
     myPath.lineJoinStyle = kCGLineJoinRound;
     myPath.miterLimit = 0;
@@ -40,15 +44,17 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
     
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
     [dict setObject:myPath forKey:@"Path"];
-    [dict setObject:_currentColor forKey:@"Colors"];
+    [dict setObject:self.lineColor forKey:@"Colors"];
     [pathArray addObject:dict];
-    [self setNeedsDisplay];
+    //[self setNeedsDisplay];
     
     currentPath = myPath;
     currentDict = dict;
 }
 
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    NSLog(@"touchesMoved");
+    
     UITouch *myTouch = [[touches allObjects] objectAtIndex:0];
     
     /* check if the point is farther than min dist from previous */
@@ -59,7 +65,6 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
         return;
     }
     
-    
     CGPoint currentPoint = point;
     CGPoint previousPoint = [myTouch previousLocationInView:self];
     [currentPath addQuadCurveToPoint:point controlPoint:previousPoint];
@@ -67,6 +72,16 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
     CGRect dirtyPoint1 = CGRectMake(previousPoint.x-10, previousPoint.y-10, 20, 20);
     CGRect dirtyPoint2 = CGRectMake(currentPoint.x-10, currentPoint.y-10, 20, 20);
     [self setNeedsDisplayInRect:CGRectUnion(dirtyPoint1, dirtyPoint2)];
+}
+
+-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    //UITouch *touch = [touches anyObject];
+    //[currentPath addLineToPoint:[touch locationInView:self]];
+    //[self setNeedsDisplay];
+}
+
+-(void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
+    [self touchesEnded:touches withEvent:event];
 }
 
 CGPoint getMidPoint(CGPoint p1, CGPoint p2) {

@@ -8,16 +8,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PaintSuperview.h"
 
-@interface SmoothLineView : UIView {
+@interface SmoothLineView : PaintSuperview {
 @private
     CGPoint currentPoint;
     CGPoint previousPoint1;
     CGPoint previousPoint2;
 }
 
-@property (nonatomic, retain) UIColor *lineColor;
-@property (nonatomic, readwrite) CGFloat lineWidth;
+
 @property (nonatomic, readwrite) CGMutablePathRef path;
 
 @end

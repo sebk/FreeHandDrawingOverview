@@ -26,6 +26,8 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
             NSLog(@"problem creating bitmap context");
         }
         
+        self.lineWidth = DEFAULT_WIDTH;
+        self.lineColor = DEFAULT_COLOR;
     }
     return self;
 }

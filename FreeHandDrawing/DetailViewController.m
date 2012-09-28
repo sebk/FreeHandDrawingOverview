@@ -38,7 +38,9 @@
 
     if (self.detailItem) {
         [_detailItem setAutoresizingMask:UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth];
-        [self.view addSubview:_detailItem];
+        //[self.view addSubview:_detailItem];
+        [_scrollView setZoomScale:1.0f];
+        [_scrollView addSubview:_detailItem];
     }
 }
 
@@ -47,6 +49,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+    
+    [_scrollView setBackgroundColor:[UIColor lightGrayColor]];
+    _scrollView.minimumZoomScale = 1.0f;
+    _scrollView.maximumZoomScale = 5.0f;
 }
 
 - (void)didReceiveMemoryWarning
@@ -75,6 +81,23 @@
 
 -(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
     return YES;
+}
+
+- (void)viewDidUnload {
+    [self setScrollView:nil];
+    [super viewDidUnload];
+}
+
+
+#pragma mark - ScrollView delegate
+
+-(UIView*)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+    return _detailItem;
+}
+
+-(void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(float)scale {
+    _detailItem.lineWidth =  (-scale * 10) + 20;
+    [_detailItem setNeedsDisplay];
 }
 
 @end

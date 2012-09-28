@@ -12,6 +12,7 @@
 		966FA380161592B000A1C5F2 /* SmoothLineViewBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FA37F161592B000A1C5F2 /* SmoothLineViewBuffer.m */; };
 		966FA3831615932300A1C5F2 /* PaintingSampleSmoothView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FA3821615932300A1C5F2 /* PaintingSampleSmoothView.m */; };
 		966FA3861615937600A1C5F2 /* ArrayDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FA3851615937600A1C5F2 /* ArrayDrawingView.m */; };
+		9695115D1615C7060032397D /* PaintSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9695115C1615C7050032397D /* PaintSuperview.m */; };
 		9698107D1613090100819D10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9698107C1613090100819D10 /* QuartzCore.framework */; };
 		96A3A09F16121A0700CC8CE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A3A09E16121A0700CC8CE9 /* UIKit.framework */; };
 		96A3A0A116121A0700CC8CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A3A0A016121A0700CC8CE9 /* Foundation.framework */; };
@@ -114,6 +115,8 @@
 		966FA4021615948700A1C5F2 /* PaintingSample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PaintingSample.xcodeproj; path = PaintingSampleSmooth/PaintingSample.xcodeproj; sourceTree = "<group>"; };
 		966FA40C1615949200A1C5F2 /* RedoUndo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RedoUndo.xcodeproj; path = RedoUndo/RedoUndo.xcodeproj; sourceTree = "<group>"; };
 		966FA4161615949700A1C5F2 /* Smooth Drawing.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Smooth Drawing.xcodeproj"; path = "smooth-drawing/Smooth Drawing.xcodeproj"; sourceTree = "<group>"; };
+		9695115B1615C7050032397D /* PaintSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintSuperview.h; path = OwnTests/PaintSuperview.h; sourceTree = "<group>"; };
+		9695115C1615C7050032397D /* PaintSuperview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintSuperview.m; path = OwnTests/PaintSuperview.m; sourceTree = "<group>"; };
 		9698107C1613090100819D10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9698129B1613097500819D10 /* SUMMARY */ = {isa = PBXFileReference; lastKnownFileType = text; path = SUMMARY; sourceTree = "<group>"; };
 		96A3A09A16121A0700CC8CE9 /* FreeHandDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeHandDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +158,8 @@
 		966FA3771615908600A1C5F2 /* OwnTests */ = {
 			isa = PBXGroup;
 			children = (
+				9695115B1615C7050032397D /* PaintSuperview.h */,
+				9695115C1615C7050032397D /* PaintSuperview.m */,
 				966FA3781615912F00A1C5F2 /* DrawLinesTest.h */,
 				966FA3791615912F00A1C5F2 /* DrawLinesTest.m */,
 				966FA37B161591C800A1C5F2 /* SmoothLineView.h */,
@@ -497,6 +502,7 @@
 				966FA380161592B000A1C5F2 /* SmoothLineViewBuffer.m in Sources */,
 				966FA3831615932300A1C5F2 /* PaintingSampleSmoothView.m in Sources */,
 				966FA3861615937600A1C5F2 /* ArrayDrawingView.m in Sources */,
+				9695115D1615C7060032397D /* PaintSuperview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,13 +582,13 @@
 		96A3A0C216121A0700CC8CE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sebastian Kruschwitz (756H674XWG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sebastian Kruschwitz (AQU75NW86Z)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FreeHandDrawing/FreeHandDrawing-Prefix.pch";
 				INFOPLIST_FILE = "FreeHandDrawing/FreeHandDrawing-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "34229515-79FB-4E5E-9860-D110159FA804";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EBA8164A-329A-4952-9183-61BE3265C2B9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
