@@ -1,375 +1,0 @@
-TRedoUndo
-v5
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/ResourceRules.plist
-cProcessInfoPlistFile /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/Info.plist RedoUndo/RedoUndo-Info.plist
-cProcessPCH /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/PrecompiledHeaders/RedoUndo-Prefix-fxtvuolrfahcqxcenyvoeedhkosj/RedoUndo-Prefix.pch.gch RedoUndo/RedoUndo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/main.o /Users/seb/Downloads/RedoUndo/RedoUndo/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/RedoUndoAppDelegate.o /Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndoAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/DrawingController.o /Users/seb/Downloads/RedoUndo/RedoUndo/DrawingController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cCompileC DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/MyLineDrawingView.o /Users/seb/Downloads/RedoUndo/RedoUndo/MyLineDrawingView.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-cLd /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/RedoUndo normal armv7
-cGenerateDSYMFile /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app.dSYM /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/RedoUndo
-cCopyStringsFile /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/en.lproj/InfoPlist.strings RedoUndo/en.lproj/InfoPlist.strings
-cCompileXIB /Users/seb/Downloads/RedoUndo/RedoUndo/en.lproj/MainWindow.xib
-cProcessProductPackaging "/Users/seb/Library/MobileDevice/Provisioning Profiles/323EDEA3-E090-4233-BC2C-8E4282471FDC.mobileprovision" /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/embedded.mobileprovision
-cProcessProductPackaging "/Users/seb/Library/MobileDevice/Provisioning Profiles/323EDEA3-E090-4233-BC2C-8E4282471FDC.mobileprovision" /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/embedded.mobileprovision
-cTouch /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo.xcent
-cCodeSign /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
-c000000004F453DF20000000000000110
-t1329937906
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
-c00000000502D2F1300000000000001A7
-t1345138451
-s423
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
-c00000000502D2F1300000000000001E5
-t1345138451
-s485
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000502D2F1400000000003AE430
-t1345138452
-s3859504
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000502D2F14000000000052C940
-t1345138452
-s5425472
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c00000000502D2F140000000000001534
-t1345138452
-s5428
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c00000000502D2F140000000000000BF5
-t1345138452
-s3061
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000502D2F150000000000798EA0
-t1345138453
-s7966368
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/Availability.h
-c00000000502D2F160000000000001B57
-t1345138454
-s6999
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/PrecompiledHeaders/RedoUndo-Prefix-fxtvuolrfahcqxcenyvoeedhkosj/RedoUndo-Prefix.pch.gch
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/DrawingController.o
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/MyLineDrawingView.o
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/RedoUndo.LinkFileList
-c00000000505872DB0000000000000269
-t1347973851
-s617
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/RedoUndoAppDelegate.o
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/main.o
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo.xcent
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app.dSYM
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/Info.plist
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/PkgInfo
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/RedoUndo
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/ResourceRules.plist
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/embedded.mobileprovision
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/en.lproj/MainWindow.nib
-t2
-s0
-
-N/Users/seb/Downloads/RedoUndo/RedoUndo/DrawingController.h
-c000000004DEF79570000000000000131
-t1307539799
-s305
-i<UIKit/UIKit.h>
-i"MyLineDrawingView.h"
-
-N/Users/seb/Downloads/RedoUndo/RedoUndo/DrawingController.m
-c000000004DEF7C6E000000000000094E
-t1307540590
-s2382
-i"DrawingController.h"
-
-N/Users/seb/Downloads/RedoUndo/RedoUndo/MyLineDrawingView.h
-c000000004DEF7D4C000000000000019D
-t1307540812
-s413
-i<UIKit/UIKit.h>
-
-N/Users/seb/Downloads/RedoUndo/RedoUndo/MyLineDrawingView.m
-c000000004DEF7D640000000000000801
-t1307540836
-s2049
-i"MyLineDrawingView.h"
-
-N/Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndo-Prefix.pch
-c000000004DE47D730000000000000142
-t1306819955
-s322
-i<Availability.h>
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-
-N/Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndoAppDelegate.h
-c000000004DE480010000000000000150
-t1306820609
-s336
-i<UIKit/UIKit.h>
-i"DrawingController.h"
-
-N/Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndoAppDelegate.m
-c000000004DE480170000000000000937
-t1306820631
-s2359
-i"RedoUndoAppDelegate.h"
-
-N/Users/seb/Downloads/RedoUndo/RedoUndo/en.lproj/InfoPlist.strings
-c000000004DE47D73000000000000002D
-t1306819955
-s45
-
-N/Users/seb/Downloads/RedoUndo/RedoUndo/en.lproj/MainWindow.xib
-c000000004DE47D730000000000002105
-t1306819955
-s8453
-
-N/Users/seb/Downloads/RedoUndo/RedoUndo/main.m
-c000000004DE47D730000000000000162
-t1306819955
-s354
-i<UIKit/UIKit.h>
-
-N/Users/seb/Library/MobileDevice/Provisioning Profiles/323EDEA3-E090-4233-BC2C-8E4282471FDC.mobileprovision
-c00000000502D3071000000000000C55B
-t1345138801
-s50523
-
-NRedoUndo/RedoUndo-Info.plist
-c000000004DE47D73000000000000049D
-t1306819955
-s1181
-
-CBuild AST from /Users/seb/Downloads/RedoUndo/RedoUndo/DrawingController.m
-r0
-
-CBuild AST from /Users/seb/Downloads/RedoUndo/RedoUndo/MyLineDrawingView.m
-r0
-
-CBuild AST from /Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndoAppDelegate.m
-r0
-
-CBuild AST from /Users/seb/Downloads/RedoUndo/RedoUndo/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc85ba25baa08b641^d976be5baa08b641^---0#1#0#--18"Check dependencies36"D22FBA64-D625-4B97-A6C9-1AC133EDC514-
-
-CCodeSign /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app
-s369666652.599210
-e369666652.728276
-r1
-xCodeSign
-x/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CodeSign DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.appb280995caa08b641^c170ba5caa08b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/0000000000000000^883"CodeSign DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app    cd /Users/seb/Downloads/RedoUndo    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign ce346519561e7d3883adc8282780526db1f29367 --resource-rules=/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/ResourceRules.plist --entitlements /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo.xcent /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app36"7E3FCA18-FA30-4F69-9E78-C569B67B428D-
-
-CCompileC DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/DrawingController.o /Users/seb/Downloads/RedoUndo/RedoUndo/DrawingController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s369666652.356689
-e369666652.451196
-r1
-xCompileC
-xDerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/DrawingController.o
-x/Users/seb/Downloads/RedoUndo/RedoUndo/DrawingController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/seb/Downloads/RedoUndo/RedoUndo/DrawingController.me86a5b5caa08b641^6281735caa08b641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/seb/Downloads/RedoUndo/RedoUndo/DrawingController.m0000000000000000^2433"CompileC DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/DrawingController.o RedoUndo/DrawingController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/seb/Downloads/RedoUndo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-generated-files.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-own-target-headers.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-all-target-headers.hmap -iquote /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-project-headers.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/DerivedSources/armv7 -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/DerivedSources -F/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos -include /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/PrecompiledHeaders/RedoUndo-Prefix-fxtvuolrfahcqxcenyvoeedhkosj/RedoUndo-Prefix.pch -c /Users/seb/Downloads/RedoUndo/RedoUndo/DrawingController.m -o /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/DrawingController.o36"601F2FE2-C578-48B3-A1AA-8D2DF504DE5F-
-
-CCompileC DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/MyLineDrawingView.o /Users/seb/Downloads/RedoUndo/RedoUndo/MyLineDrawingView.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s369666652.356699
-e369666652.458756
-r1
-xCompileC
-xDerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/MyLineDrawingView.o
-x/Users/seb/Downloads/RedoUndo/RedoUndo/MyLineDrawingView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/seb/Downloads/RedoUndo/RedoUndo/MyLineDrawingView.m79745b5caa08b641^9b72755caa08b641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/seb/Downloads/RedoUndo/RedoUndo/MyLineDrawingView.m0000000000000000^2433"CompileC DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/MyLineDrawingView.o RedoUndo/MyLineDrawingView.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/seb/Downloads/RedoUndo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-generated-files.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-own-target-headers.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-all-target-headers.hmap -iquote /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-project-headers.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/DerivedSources/armv7 -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/DerivedSources -F/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos -include /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/PrecompiledHeaders/RedoUndo-Prefix-fxtvuolrfahcqxcenyvoeedhkosj/RedoUndo-Prefix.pch -c /Users/seb/Downloads/RedoUndo/RedoUndo/MyLineDrawingView.m -o /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/MyLineDrawingView.o36"3D311D32-6756-4EC8-A9CC-355331C20C3E-
-
-CCompileC DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/RedoUndoAppDelegate.o /Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndoAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s369666652.356664
-e369666652.448135
-r1
-xCompileC
-xDerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/RedoUndoAppDelegate.o
-x/Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndoAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndoAppDelegate.m556d5b5caa08b641^17ba725caa08b641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndoAppDelegate.m0000000000000000^2441"CompileC DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/RedoUndoAppDelegate.o RedoUndo/RedoUndoAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/seb/Downloads/RedoUndo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-generated-files.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-own-target-headers.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-all-target-headers.hmap -iquote /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-project-headers.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/DerivedSources/armv7 -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/DerivedSources -F/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos -include /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/PrecompiledHeaders/RedoUndo-Prefix-fxtvuolrfahcqxcenyvoeedhkosj/RedoUndo-Prefix.pch -c /Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndoAppDelegate.m -o /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/RedoUndoAppDelegate.o36"7B7AC662-ABB6-452B-9206-F8A7F960BA63-
-
-CCompileC DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/main.o /Users/seb/Downloads/RedoUndo/RedoUndo/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
-s369666652.356613
-e369666652.429746
-r1
-xCompileC
-xDerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/main.o
-x/Users/seb/Downloads/RedoUndo/RedoUndo/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/seb/Downloads/RedoUndo/RedoUndo/main.md2735b5caa08b641^e6036e5caa08b641^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/seb/Downloads/RedoUndo/RedoUndo/main.m0000000000000000^2381"CompileC DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/main.o RedoUndo/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/seb/Downloads/RedoUndo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-generated-files.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-own-target-headers.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-all-target-headers.hmap -iquote /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-project-headers.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/DerivedSources/armv7 -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/DerivedSources -F/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos -include /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/PrecompiledHeaders/RedoUndo-Prefix-fxtvuolrfahcqxcenyvoeedhkosj/RedoUndo-Prefix.pch -c /Users/seb/Downloads/RedoUndo/RedoUndo/main.m -o /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/main.o36"6A078A95-9D00-4C75-B6CD-8B3B30295F54-
-
-CCompileXIB /Users/seb/Downloads/RedoUndo/RedoUndo/en.lproj/MainWindow.xib
-s369666652.524635
-e369666652.543380
-r1
-xCompileXIB
-x/Users/seb/Downloads/RedoUndo/RedoUndo/en.lproj/MainWindow.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compiling /Users/seb/Downloads/RedoUndo/RedoUndo/en.lproj/MainWindow.xib4a61865caa08b641^971c8b5caa08b641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/seb/Downloads/RedoUndo/RedoUndo/en.lproj/MainWindow.xib0000000000000000^835"CompileXIB RedoUndo/en.lproj/MainWindow.xib    cd /Users/seb/Downloads/RedoUndo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/en.lproj/MainWindow.nib /Users/seb/Downloads/RedoUndo/RedoUndo/en.lproj/MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"61ACC0B4-BC4B-4FC6-820B-55F16BEA4CFF-
-
-CCopyStringsFile /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/en.lproj/InfoPlist.strings RedoUndo/en.lproj/InfoPlist.strings
-s369666652.524583
-e369666652.528230
-r1
-xCopyStringsFile
-x/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/en.lproj/InfoPlist.strings
-xRedoUndo/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy RedoUndo/en.lproj/InfoPlist.stringsb360865caa08b641^543b875caa08b641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/seb/Downloads/RedoUndo/RedoUndo/en.lproj/InfoPlist.strings0000000000000000^600"CopyStringsFile DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/en.lproj/InfoPlist.strings RedoUndo/en.lproj/InfoPlist.strings    cd /Users/seb/Downloads/RedoUndo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/en.lproj -- RedoUndo/en.lproj/InfoPlist.strings36"315223EE-D123-490E-A785-D56FA0F32708-
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/ResourceRules.plist
-s369666651.749547
-e369666651.752686
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
-xDerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/ResourceRules.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/ResourceRules.plistc102c05baa08b641^d3dac05baa08b641^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/ResourceRules.plist000000000080d041^770"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/ResourceRules.plist    cd /Users/seb/Downloads/RedoUndo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app36"AEC4FC02-93AF-4326-B12E-AD487D52781C-
-
-CGenerateDSYMFile /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app.dSYM /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/RedoUndo
-s369666652.498031
-e369666652.515763
-r1
-xGenerateDSYMFile
-x/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app.dSYM
-x/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/RedoUndo
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Generating /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app.dSYMee977f5caa08b641^c409845caa08b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app.dSYM000000000080d041^689"GenerateDSYMFile DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app.dSYM DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/RedoUndo    cd /Users/seb/Downloads/RedoUndo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/RedoUndo -o /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app.dSYM36"A56C35DE-2921-4193-90E6-557311599D99-
-
-CLd /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/RedoUndo normal armv7
-s369666652.465744
-e369666652.491004
-r1
-xLd
-x/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/RedoUndo
-xnormal
-xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/RedoUndob457775caa08b641^f2b37d5caa08b641^---0#0#0#--1149"Ld DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/RedoUndo normal armv7    cd /Users/seb/Downloads/RedoUndo    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos -F/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos -filelist /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/Objects-normal/armv7/RedoUndo.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=4.2 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/RedoUndo36"99689407-53AF-40DF-AAC8-8C4E04486D54-
-
-CProcessInfoPlistFile /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/Info.plist RedoUndo/RedoUndo-Info.plist
-s369666651.749701
-e369666651.755176
-r1
-xProcessInfoPlistFile
-x/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/Info.plist
-xRedoUndo/RedoUndo-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process RedoUndo/RedoUndo-Info.plist1d05c05baa08b641^ef53c15baa08b641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndo-Info.plist0000000000000000^818"ProcessInfoPlistFile DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/Info.plist RedoUndo/RedoUndo-Info.plist    cd /Users/seb/Downloads/RedoUndo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility RedoUndo/RedoUndo-Info.plist -genpkginfo /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/ResourceRules.plist -o /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/Info.plist36"C455EABE-CFFB-4FF9-BC36-DB8BDD6D9187-
-
-CProcessPCH /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/PrecompiledHeaders/RedoUndo-Prefix-fxtvuolrfahcqxcenyvoeedhkosj/RedoUndo-Prefix.pch.gch RedoUndo/RedoUndo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
-s369666651.764244
-e369666652.349006
-r1
-xProcessPCH
-x/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/PrecompiledHeaders/RedoUndo-Prefix-fxtvuolrfahcqxcenyvoeedhkosj/RedoUndo-Prefix.pch.gch
-xRedoUndo/RedoUndo-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvmgcc42
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile RedoUndo/RedoUndo-Prefix.pch43c6c35baa08b641^9259595caa08b641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndo-Prefix.pch0000000000000000^2282"ProcessPCH DerivedData/RedoUndo/Build/Intermediates/PrecompiledHeaders/RedoUndo-Prefix-fxtvuolrfahcqxcenyvoeedhkosj/RedoUndo-Prefix.pch.gch RedoUndo/RedoUndo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/seb/Downloads/RedoUndo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.2 -iquote /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-generated-files.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-own-target-headers.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-all-target-headers.hmap -iquote /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo-project-headers.hmap -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/DerivedSources/armv7 -I/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/DerivedSources -F/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos -c /Users/seb/Downloads/RedoUndo/RedoUndo/RedoUndo-Prefix.pch -o /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/PrecompiledHeaders/RedoUndo-Prefix-fxtvuolrfahcqxcenyvoeedhkosj/RedoUndo-Prefix.pch.gch36"1B27D1F6-BC84-41BD-86CD-AE1C3F4FA0B5-
-
-CProcessPCH /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Index/PrecompiledHeaders/RedoUndo-Prefix-gooqwgfkxthvujbxfsiwidegmyry_ast/RedoUndo-Prefix.pch.pth RedoUndo/RedoUndo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessProductPackaging "/Users/seb/Library/MobileDevice/Provisioning Profiles/323EDEA3-E090-4233-BC2C-8E4282471FDC.mobileprovision" /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/embedded.mobileprovision
-s369666652.562011
-e369666652.564979
-r1
-xProcessProductPackaging
-x/Users/seb/Library/MobileDevice/Provisioning Profiles/323EDEA3-E090-4233-BC2C-8E4282471FDC.mobileprovision
-x/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/embedded.mobileprovision
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection221"ProcessProductPackaging "/Users/seb/Library/MobileDevice/Provisioning Profiles/323EDEA3-E090-4233-BC2C-8E4282471FDC.mobileprovision" DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/embedded.mobileprovision72f98f5caa08b641^83a3905caa08b641^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/embedded.mobileprovision0000000000000000^714"ProcessProductPackaging "/Users/seb/Library/MobileDevice/Provisioning Profiles/323EDEA3-E090-4233-BC2C-8E4282471FDC.mobileprovision" DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/embedded.mobileprovision    cd /Users/seb/Downloads/RedoUndo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/seb/Library/MobileDevice/Provisioning Profiles/323EDEA3-E090-4233-BC2C-8E4282471FDC.mobileprovision" -o /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app/embedded.mobileprovision36"4E91E4D0-76BB-4A75-80F5-43C81B49A50C-
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo.xcent
-s369666652.586487
-e369666652.590219
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
-x/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection245"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo.xcente63d965caa08b641^fc18975caa08b641^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo.xcent000000000080d041^788"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo.xcent    cd /Users/seb/Downloads/RedoUndo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Intermediates/RedoUndo.build/Debug-iphoneos/RedoUndo.build/RedoUndo.xcent36"8FA79F26-18BB-485D-9B8D-0A46B86455D9-
-
-CTouch /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app
-s369666652.573136
-e369666652.577762
-r1
-xTouch
-x/Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Touch /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app53cb925caa08b641^bce8935caa08b641^---0#0#0#--411"Touch DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app    cd /Users/seb/Downloads/RedoUndo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/seb/Downloads/RedoUndo/DerivedData/RedoUndo/Build/Products/Debug-iphoneos/RedoUndo.app36"459BF8BB-B509-4C77-96D9-1AC6CDF55F46-
-

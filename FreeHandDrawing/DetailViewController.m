@@ -20,6 +20,7 @@
 - (void)setDetailItem:(id)newDetailItem
 {
     if (_detailItem != newDetailItem) {
+        [_detailItem removeFromSuperview];
         _detailItem = newDetailItem;
         
         // Update the view.
@@ -36,7 +37,8 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        [_detailItem setAutoresizingMask:UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth];
+        [self.view addSubview:_detailItem];
     }
 }
 

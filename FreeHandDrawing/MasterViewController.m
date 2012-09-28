@@ -9,6 +9,13 @@
 #import "MasterViewController.h"
 #import "DetailViewController.h"
 
+#import "DrawLinesTest.h"
+#import "SmoothLineView.h"
+#import "SmoothLineViewBuffer.h"
+#import "PaintingSampleSmoothView.h"
+#import "ArrayDrawingView.h"
+
+
 @interface MasterViewController () {
     NSMutableArray *_objects;
 }
@@ -29,7 +36,13 @@
 
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     
-    _objects = [NSMutableArray arrayWithObjects:@"CGPathHitTesting", @"Drawing", @"DrawLines", @"GLPaint", @"LineSmoothing", @"PaintingSampleSmooth", @"RedoUndo", @"Smooth-drawing", @"Smooth-Line-View", nil];
+    _objects = [NSMutableArray arrayWithObjects:@"DrawLines", @"SmoothLineView", @"SmoothLineViewBuffer", @"PaintingSmooth", @"ArrayDrawing", nil];
+    
+    [self initObjects];
+    
+}
+
+-(void)initObjects {
     
 }
 
@@ -100,65 +113,41 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //not the best option, but good for now
-    //TODO: do this better and nicer
+
+    UIView* object = nil;
+    
     switch (indexPath.row) {
         case 0: {
-            
+            object = [[DrawLinesTest alloc] initWithFrame:_detailViewController.view.bounds];
         }
             break;
             
         case 1: {
-            
+            object = [[SmoothLineView alloc] initWithFrame:_detailViewController.view.bounds];
         }
             break;
             
         case 2: {
-            
+            object = [[SmoothLineViewBuffer alloc] initWithFrame:_detailViewController.view.bounds];
         }
             break;
             
         case 3: {
-            
+            object = [[PaintingSampleSmoothView alloc] initWithFrame:_detailViewController.view.bounds];
         }
             break;
             
         case 4: {
-            
-        }
-            break;
-            
-        case 5: {
-            
-        }
-            break;
-            
-        case 6: {
-            
-        }
-            break;
-            
-        case 7: {
-            
-        }
-            break;
-            
-        case 8: {
-            
-        }
-            break;
-            
-        case 9: {
-            
+            object = [[ArrayDrawingView alloc] initWithFrame:_detailViewController.view.bounds];
         }
             break;
             
         default:
             break;
     }
+    
     self.detailViewController.detailItem = object;
     
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 

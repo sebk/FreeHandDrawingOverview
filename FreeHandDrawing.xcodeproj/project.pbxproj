@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		966FA37A1615912F00A1C5F2 /* DrawLinesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FA3791615912F00A1C5F2 /* DrawLinesTest.m */; };
+		966FA37D161591C800A1C5F2 /* SmoothLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FA37C161591C800A1C5F2 /* SmoothLineView.m */; };
+		966FA380161592B000A1C5F2 /* SmoothLineViewBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FA37F161592B000A1C5F2 /* SmoothLineViewBuffer.m */; };
+		966FA3831615932300A1C5F2 /* PaintingSampleSmoothView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FA3821615932300A1C5F2 /* PaintingSampleSmoothView.m */; };
+		966FA3861615937600A1C5F2 /* ArrayDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FA3851615937600A1C5F2 /* ArrayDrawingView.m */; };
+		9698107D1613090100819D10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9698107C1613090100819D10 /* QuartzCore.framework */; };
 		96A3A09F16121A0700CC8CE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A3A09E16121A0700CC8CE9 /* UIKit.framework */; };
 		96A3A0A116121A0700CC8CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A3A0A016121A0700CC8CE9 /* Foundation.framework */; };
 		96A3A0A316121A0700CC8CE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A3A0A216121A0700CC8CE9 /* CoreGraphics.framework */; };
@@ -22,7 +28,94 @@
 		96A3A0C516121D4900CC8CE9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 96A3A0C416121D4900CC8CE9 /* README.md */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		966FA3CE1615943900A1C5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966FA3C61615943900A1C5F2 /* Smooth Line View.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B93BE6A13F3374200DFAB23;
+			remoteInfo = "Smooth Line View";
+		};
+		966FA3D81615946E00A1C5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966FA3D01615946E00A1C5F2 /* PathHitTesting.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D892D2B14D6F72B005B3273;
+			remoteInfo = PathHitTesting;
+		};
+		966FA3E21615947500A1C5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966FA3DA1615947500A1C5F2 /* drawing.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6574263815216F0F0010CE1D;
+			remoteInfo = drawing;
+		};
+		966FA3EC1615947A00A1C5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966FA3E41615947900A1C5F2 /* DrawLines.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 23B78185137A56930009732A;
+			remoteInfo = DrawLines;
+		};
+		966FA3F61615947F00A1C5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966FA3EE1615947F00A1C5F2 /* GLPaint.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = GLPaint;
+		};
+		966FA4001615948300A1C5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966FA3F81615948300A1C5F2 /* LineSmoothing.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ADFB817F141CCD950079512C;
+			remoteInfo = LineSmoothing;
+		};
+		966FA40A1615948700A1C5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966FA4021615948700A1C5F2 /* PaintingSample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F138105E143F7971005CBF27;
+			remoteInfo = PaintingSample;
+		};
+		966FA4141615949200A1C5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966FA40C1615949200A1C5F2 /* RedoUndo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 232DAE5D1394B4F3005339DA;
+			remoteInfo = RedoUndo;
+		};
+		966FA41E1615949700A1C5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966FA4161615949700A1C5F2 /* Smooth Drawing.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FBD0E92915457AF400FBE81E;
+			remoteInfo = "Smooth Drawing";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		966FA3781615912F00A1C5F2 /* DrawLinesTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawLinesTest.h; path = OwnTests/DrawLinesTest.h; sourceTree = "<group>"; };
+		966FA3791615912F00A1C5F2 /* DrawLinesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawLinesTest.m; path = OwnTests/DrawLinesTest.m; sourceTree = "<group>"; };
+		966FA37B161591C800A1C5F2 /* SmoothLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmoothLineView.h; path = OwnTests/SmoothLineView.h; sourceTree = "<group>"; };
+		966FA37C161591C800A1C5F2 /* SmoothLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmoothLineView.m; path = OwnTests/SmoothLineView.m; sourceTree = "<group>"; };
+		966FA37E161592B000A1C5F2 /* SmoothLineViewBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmoothLineViewBuffer.h; path = OwnTests/SmoothLineViewBuffer.h; sourceTree = "<group>"; };
+		966FA37F161592B000A1C5F2 /* SmoothLineViewBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmoothLineViewBuffer.m; path = OwnTests/SmoothLineViewBuffer.m; sourceTree = "<group>"; };
+		966FA3811615932300A1C5F2 /* PaintingSampleSmoothView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintingSampleSmoothView.h; path = OwnTests/PaintingSampleSmoothView.h; sourceTree = "<group>"; };
+		966FA3821615932300A1C5F2 /* PaintingSampleSmoothView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintingSampleSmoothView.m; path = OwnTests/PaintingSampleSmoothView.m; sourceTree = "<group>"; };
+		966FA3841615937600A1C5F2 /* ArrayDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrayDrawingView.h; path = OwnTests/ArrayDrawingView.h; sourceTree = "<group>"; };
+		966FA3851615937600A1C5F2 /* ArrayDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArrayDrawingView.m; path = OwnTests/ArrayDrawingView.m; sourceTree = "<group>"; };
+		966FA3C61615943900A1C5F2 /* Smooth Line View.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Smooth Line View.xcodeproj"; path = "Smooth-Line-View/Smooth Line View.xcodeproj"; sourceTree = "<group>"; };
+		966FA3D01615946E00A1C5F2 /* PathHitTesting.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PathHitTesting.xcodeproj; path = CGPathHitTesting/PathHitTesting.xcodeproj; sourceTree = "<group>"; };
+		966FA3DA1615947500A1C5F2 /* drawing.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = drawing.xcodeproj; path = Drawing/drawing.xcodeproj; sourceTree = "<group>"; };
+		966FA3E41615947900A1C5F2 /* DrawLines.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DrawLines.xcodeproj; path = DrawLines/DrawLines.xcodeproj; sourceTree = "<group>"; };
+		966FA3EE1615947F00A1C5F2 /* GLPaint.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GLPaint.xcodeproj; path = GLPaint/GLPaint.xcodeproj; sourceTree = "<group>"; };
+		966FA3F81615948300A1C5F2 /* LineSmoothing.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LineSmoothing.xcodeproj; path = LineSmoothing/LineSmoothing.xcodeproj; sourceTree = "<group>"; };
+		966FA4021615948700A1C5F2 /* PaintingSample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PaintingSample.xcodeproj; path = PaintingSampleSmooth/PaintingSample.xcodeproj; sourceTree = "<group>"; };
+		966FA40C1615949200A1C5F2 /* RedoUndo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RedoUndo.xcodeproj; path = RedoUndo/RedoUndo.xcodeproj; sourceTree = "<group>"; };
+		966FA4161615949700A1C5F2 /* Smooth Drawing.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Smooth Drawing.xcodeproj"; path = "smooth-drawing/Smooth Drawing.xcodeproj"; sourceTree = "<group>"; };
+		9698107C1613090100819D10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9698129B1613097500819D10 /* SUMMARY */ = {isa = PBXFileReference; lastKnownFileType = text; path = SUMMARY; sourceTree = "<group>"; };
 		96A3A09A16121A0700CC8CE9 /* FreeHandDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeHandDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A3A09E16121A0700CC8CE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96A3A0A016121A0700CC8CE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9698107D1613090100819D10 /* QuartzCore.framework in Frameworks */,
 				96A3A09F16121A0700CC8CE9 /* UIKit.framework in Frameworks */,
 				96A3A0A116121A0700CC8CE9 /* Foundation.framework in Frameworks */,
 				96A3A0A316121A0700CC8CE9 /* CoreGraphics.framework in Frameworks */,
@@ -58,10 +152,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		966FA3771615908600A1C5F2 /* OwnTests */ = {
+			isa = PBXGroup;
+			children = (
+				966FA3781615912F00A1C5F2 /* DrawLinesTest.h */,
+				966FA3791615912F00A1C5F2 /* DrawLinesTest.m */,
+				966FA37B161591C800A1C5F2 /* SmoothLineView.h */,
+				966FA37C161591C800A1C5F2 /* SmoothLineView.m */,
+				966FA37E161592B000A1C5F2 /* SmoothLineViewBuffer.h */,
+				966FA37F161592B000A1C5F2 /* SmoothLineViewBuffer.m */,
+				966FA3811615932300A1C5F2 /* PaintingSampleSmoothView.h */,
+				966FA3821615932300A1C5F2 /* PaintingSampleSmoothView.m */,
+				966FA3841615937600A1C5F2 /* ArrayDrawingView.h */,
+				966FA3851615937600A1C5F2 /* ArrayDrawingView.m */,
+			);
+			name = OwnTests;
+			sourceTree = "<group>";
+		};
+		966FA3C71615943900A1C5F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966FA3CF1615943900A1C5F2 /* Smooth Line View.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966FA3D11615946E00A1C5F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966FA3D91615946E00A1C5F2 /* PathHitTesting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966FA3DB1615947500A1C5F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966FA3E31615947500A1C5F2 /* drawing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966FA3E51615947900A1C5F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966FA3ED1615947A00A1C5F2 /* DrawLines.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966FA3EF1615947F00A1C5F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966FA3F71615947F00A1C5F2 /* GLPaint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966FA3F91615948300A1C5F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966FA4011615948300A1C5F2 /* LineSmoothing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966FA4031615948700A1C5F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966FA40B1615948700A1C5F2 /* PaintingSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966FA40D1615949200A1C5F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966FA4151615949200A1C5F2 /* RedoUndo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966FA4171615949700A1C5F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966FA41F1615949700A1C5F2 /* Smooth Drawing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9698107E1613097500819D10 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				9698129B1613097500819D10 /* SUMMARY */,
+				966FA4161615949700A1C5F2 /* Smooth Drawing.xcodeproj */,
+				966FA40C1615949200A1C5F2 /* RedoUndo.xcodeproj */,
+				966FA4021615948700A1C5F2 /* PaintingSample.xcodeproj */,
+				966FA3F81615948300A1C5F2 /* LineSmoothing.xcodeproj */,
+				966FA3EE1615947F00A1C5F2 /* GLPaint.xcodeproj */,
+				966FA3E41615947900A1C5F2 /* DrawLines.xcodeproj */,
+				966FA3DA1615947500A1C5F2 /* drawing.xcodeproj */,
+				966FA3D01615946E00A1C5F2 /* PathHitTesting.xcodeproj */,
+				966FA3C61615943900A1C5F2 /* Smooth Line View.xcodeproj */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
 		96A3A08F16121A0600CC8CE9 = {
 			isa = PBXGroup;
 			children = (
 				96A3A0C416121D4900CC8CE9 /* README.md */,
+				9698107E1613097500819D10 /* ThirdParty */,
 				96A3A0A416121A0700CC8CE9 /* FreeHandDrawing */,
 				96A3A09D16121A0700CC8CE9 /* Frameworks */,
 				96A3A09B16121A0700CC8CE9 /* Products */,
@@ -79,6 +280,7 @@
 		96A3A09D16121A0700CC8CE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9698107C1613090100819D10 /* QuartzCore.framework */,
 				96A3A09E16121A0700CC8CE9 /* UIKit.framework */,
 				96A3A0A016121A0700CC8CE9 /* Foundation.framework */,
 				96A3A0A216121A0700CC8CE9 /* CoreGraphics.framework */,
@@ -89,6 +291,7 @@
 		96A3A0A416121A0700CC8CE9 /* FreeHandDrawing */ = {
 			isa = PBXGroup;
 			children = (
+				966FA3771615908600A1C5F2 /* OwnTests */,
 				96A3A0AD16121A0700CC8CE9 /* AppDelegate.h */,
 				96A3A0AE16121A0700CC8CE9 /* AppDelegate.m */,
 				96A3A0B616121A0700CC8CE9 /* MainStoryboard.storyboard */,
@@ -96,7 +299,6 @@
 				96A3A0BA16121A0700CC8CE9 /* MasterViewController.m */,
 				96A3A0BC16121A0700CC8CE9 /* DetailViewController.h */,
 				96A3A0BD16121A0700CC8CE9 /* DetailViewController.m */,
-				96A3A0C616121E1200CC8CE9 /* ThirdParty */,
 				96A3A0A516121A0700CC8CE9 /* Supporting Files */,
 			);
 			path = FreeHandDrawing;
@@ -114,13 +316,6 @@
 				96A3A0B416121A0700CC8CE9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		96A3A0C616121E1200CC8CE9 /* ThirdParty */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ThirdParty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,12 +356,116 @@
 			mainGroup = 96A3A08F16121A0600CC8CE9;
 			productRefGroup = 96A3A09B16121A0700CC8CE9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 966FA3DB1615947500A1C5F2 /* Products */;
+					ProjectRef = 966FA3DA1615947500A1C5F2 /* drawing.xcodeproj */;
+				},
+				{
+					ProductGroup = 966FA3E51615947900A1C5F2 /* Products */;
+					ProjectRef = 966FA3E41615947900A1C5F2 /* DrawLines.xcodeproj */;
+				},
+				{
+					ProductGroup = 966FA3EF1615947F00A1C5F2 /* Products */;
+					ProjectRef = 966FA3EE1615947F00A1C5F2 /* GLPaint.xcodeproj */;
+				},
+				{
+					ProductGroup = 966FA3F91615948300A1C5F2 /* Products */;
+					ProjectRef = 966FA3F81615948300A1C5F2 /* LineSmoothing.xcodeproj */;
+				},
+				{
+					ProductGroup = 966FA4031615948700A1C5F2 /* Products */;
+					ProjectRef = 966FA4021615948700A1C5F2 /* PaintingSample.xcodeproj */;
+				},
+				{
+					ProductGroup = 966FA3D11615946E00A1C5F2 /* Products */;
+					ProjectRef = 966FA3D01615946E00A1C5F2 /* PathHitTesting.xcodeproj */;
+				},
+				{
+					ProductGroup = 966FA40D1615949200A1C5F2 /* Products */;
+					ProjectRef = 966FA40C1615949200A1C5F2 /* RedoUndo.xcodeproj */;
+				},
+				{
+					ProductGroup = 966FA4171615949700A1C5F2 /* Products */;
+					ProjectRef = 966FA4161615949700A1C5F2 /* Smooth Drawing.xcodeproj */;
+				},
+				{
+					ProductGroup = 966FA3C71615943900A1C5F2 /* Products */;
+					ProjectRef = 966FA3C61615943900A1C5F2 /* Smooth Line View.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				96A3A09916121A0700CC8CE9 /* FreeHandDrawing */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		966FA3CF1615943900A1C5F2 /* Smooth Line View.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Smooth Line View.app";
+			remoteRef = 966FA3CE1615943900A1C5F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		966FA3D91615946E00A1C5F2 /* PathHitTesting.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = PathHitTesting.app;
+			remoteRef = 966FA3D81615946E00A1C5F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		966FA3E31615947500A1C5F2 /* drawing.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = drawing.app;
+			remoteRef = 966FA3E21615947500A1C5F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		966FA3ED1615947A00A1C5F2 /* DrawLines.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DrawLines.app;
+			remoteRef = 966FA3EC1615947A00A1C5F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		966FA3F71615947F00A1C5F2 /* GLPaint.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GLPaint.app;
+			remoteRef = 966FA3F61615947F00A1C5F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		966FA4011615948300A1C5F2 /* LineSmoothing.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LineSmoothing.app;
+			remoteRef = 966FA4001615948300A1C5F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		966FA40B1615948700A1C5F2 /* PaintingSample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = PaintingSample.app;
+			remoteRef = 966FA40A1615948700A1C5F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		966FA4151615949200A1C5F2 /* RedoUndo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RedoUndo.app;
+			remoteRef = 966FA4141615949200A1C5F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		966FA41F1615949700A1C5F2 /* Smooth Drawing.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Smooth Drawing.app";
+			remoteRef = 966FA41E1615949700A1C5F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		96A3A09816121A0700CC8CE9 /* Resources */ = {
@@ -193,6 +492,11 @@
 				96A3A0AF16121A0700CC8CE9 /* AppDelegate.m in Sources */,
 				96A3A0BB16121A0700CC8CE9 /* MasterViewController.m in Sources */,
 				96A3A0BE16121A0700CC8CE9 /* DetailViewController.m in Sources */,
+				966FA37A1615912F00A1C5F2 /* DrawLinesTest.m in Sources */,
+				966FA37D161591C800A1C5F2 /* SmoothLineView.m in Sources */,
+				966FA380161592B000A1C5F2 /* SmoothLineViewBuffer.m in Sources */,
+				966FA3831615932300A1C5F2 /* PaintingSampleSmoothView.m in Sources */,
+				966FA3861615937600A1C5F2 /* ArrayDrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +620,7 @@
 				96A3A0C316121A0700CC8CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

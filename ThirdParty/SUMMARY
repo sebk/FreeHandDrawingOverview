@@ -1,0 +1,48 @@
+CGPathHitTesting: 
+Move UIBezierPath around
+https://github.com/ole/CGPathHitTesting
+git://github.com/ole/CGPathHitTesting.git
+
+
+Drawing: 
+smooth drawing with different colors and line width, clear function; following the finger could be a little better, but stays quite ok even when the whole screen is painted
+https://github.com/saturngod/Drawing
+git://github.com/saturngod/Drawing.git
+
+
+DrawLines: 
+pattern brush is nice; cornered lines, not very smooth, becomes very cornered and laggy when drawing over the complete screen
+http://soulwithmobiletechnology.blogspot.de/2011/05/uibezierpath-tutorial-for-iphone-sdk-40.html
+
+
+GLPaint: 
+Apple demo for OpenGL
+http://developer.apple.com/library/ios/#samplecode/GLPaint/Introduction/Intro.html
+
+LineSmoothing: 
+Smooth the line after drawing, becomes laggy when drawing the complete screen, but the smoothing algorithm still remains very good
+http://tonyngo.net/2011/09/smooth-line-drawing-in-ios/
+
+
+PaintingSampleSmooth: 
+Very smooth and fast, lines are looking good, saves drawing to image
+http://blog.effectiveui.com/?p=8105
+
+
+RedoUndo: 
+UIBezierPath, drawing is very cornered, undo and redo function, becomes very laggy when draw over whole 
+screen
+http://soulwithmobiletechnology.blogspot.de/2011/06/redo-undo-in-paint-feature.html
+
+Smooth-drawing: 
+Very smooth and fast, uses cocos2d
+http://www.merowing.info/2012/04/drawing-smooth-lines-with-cocos2d-ios-inspired-by-paper/
+https://github.com/krzysztofzablocki/smooth-drawing
+
+
+Smooth-Line-View: 
+Very smooth and fast, one of the best QuartzCore drawing apps, sometimes the complete screen is repainted and then the app becomes laggy for this time (redrawing is called everytime with a specific rect, can't say why sometimes the complete screen will be redrawn)
+https://github.com/levinunnink/Smooth-Line-View
+git://github.com/levinunnink/Smooth-Line-View.git
+
+
