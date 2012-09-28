@@ -53,6 +53,8 @@
     [_scrollView setBackgroundColor:[UIColor lightGrayColor]];
     _scrollView.minimumZoomScale = 1.0f;
     _scrollView.maximumZoomScale = 5.0f;
+    
+    UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"picture"]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -98,6 +100,7 @@
 -(void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(float)scale {
     _detailItem.lineWidth =  (-scale * 10) + 20;
     [_detailItem setNeedsDisplay];
+    
 }
 
 @end

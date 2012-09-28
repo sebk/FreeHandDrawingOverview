@@ -13,6 +13,7 @@
 		966FA3831615932300A1C5F2 /* PaintingSampleSmoothView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FA3821615932300A1C5F2 /* PaintingSampleSmoothView.m */; };
 		966FA3861615937600A1C5F2 /* ArrayDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966FA3851615937600A1C5F2 /* ArrayDrawingView.m */; };
 		9695115D1615C7060032397D /* PaintSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9695115C1615C7050032397D /* PaintSuperview.m */; };
+		969511671615CCED0032397D /* picture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 969511661615CCED0032397D /* picture.jpg */; };
 		9698107D1613090100819D10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9698107C1613090100819D10 /* QuartzCore.framework */; };
 		96A3A09F16121A0700CC8CE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A3A09E16121A0700CC8CE9 /* UIKit.framework */; };
 		96A3A0A116121A0700CC8CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A3A0A016121A0700CC8CE9 /* Foundation.framework */; };
@@ -117,6 +118,7 @@
 		966FA4161615949700A1C5F2 /* Smooth Drawing.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Smooth Drawing.xcodeproj"; path = "smooth-drawing/Smooth Drawing.xcodeproj"; sourceTree = "<group>"; };
 		9695115B1615C7050032397D /* PaintSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintSuperview.h; path = OwnTests/PaintSuperview.h; sourceTree = "<group>"; };
 		9695115C1615C7050032397D /* PaintSuperview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintSuperview.m; path = OwnTests/PaintSuperview.m; sourceTree = "<group>"; };
+		969511661615CCED0032397D /* picture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = picture.jpg; sourceTree = "<group>"; };
 		9698107C1613090100819D10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9698129B1613097500819D10 /* SUMMARY */ = {isa = PBXFileReference; lastKnownFileType = text; path = SUMMARY; sourceTree = "<group>"; };
 		96A3A09A16121A0700CC8CE9 /* FreeHandDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeHandDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -304,6 +306,7 @@
 				96A3A0BA16121A0700CC8CE9 /* MasterViewController.m */,
 				96A3A0BC16121A0700CC8CE9 /* DetailViewController.h */,
 				96A3A0BD16121A0700CC8CE9 /* DetailViewController.m */,
+				969511661615CCED0032397D /* picture.jpg */,
 				96A3A0A516121A0700CC8CE9 /* Supporting Files */,
 			);
 			path = FreeHandDrawing;
@@ -483,6 +486,7 @@
 				96A3A0B516121A0700CC8CE9 /* Default-568h@2x.png in Resources */,
 				96A3A0B816121A0700CC8CE9 /* MainStoryboard.storyboard in Resources */,
 				96A3A0C516121D4900CC8CE9 /* README.md in Resources */,
+				969511671615CCED0032397D /* picture.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

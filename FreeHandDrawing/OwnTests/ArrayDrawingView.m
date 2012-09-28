@@ -84,11 +84,6 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
     [self touchesEnded:touches withEvent:event];
 }
 
-CGPoint getMidPoint(CGPoint p1, CGPoint p2) {
-    return CGPointMake((p1.x + p2.x) * 0.5, (p1.y + p2.y) * 0.5);
-}
-
-
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect
