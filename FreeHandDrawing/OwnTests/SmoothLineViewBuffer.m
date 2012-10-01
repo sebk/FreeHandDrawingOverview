@@ -8,9 +8,6 @@
 
 #import "SmoothLineViewBuffer.h"
 
-#define DEFAULT_COLOR [UIColor blackColor]
-#define DEFAULT_WIDTH 10.0f
-
 
 @interface SmoothLineViewBuffer ()
 

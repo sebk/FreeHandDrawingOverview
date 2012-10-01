@@ -11,7 +11,6 @@
 
 @interface PaintingSampleSmoothView : PaintSuperview {
     void *cacheBitmap;
-    CGContextRef cacheContext;
     float hue;
     
     CGPoint point0;

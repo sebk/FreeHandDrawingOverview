@@ -13,8 +13,6 @@
 static const CGFloat kPointMinDistance = 5;
 static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDistance;
 
-@synthesize cacheContext;
-
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -53,8 +51,8 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
 	//cacheContext = CGBitmapContextCreate (cacheBitmap, size.width, size.height, 8, bitmapBytesPerRow, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaNoneSkipFirst);
     
     float scaleFactor = [[UIScreen mainScreen]scale];
-    cacheContext = CGBitmapContextCreate (cacheBitmap, size.width*scaleFactor, size.height*scaleFactor, 8, bitmapBytesPerRow, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaNoneSkipFirst);
-    CGContextScaleCTM(cacheContext, scaleFactor, scaleFactor);
+    _cacheContext = CGBitmapContextCreate (cacheBitmap, size.width*scaleFactor, size.height*scaleFactor, 8, bitmapBytesPerRow, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaNoneSkipFirst);
+    CGContextScaleCTM(_cacheContext, scaleFactor, scaleFactor);
 	
     return YES;
     
@@ -87,9 +85,9 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
         if(hue > 1.0) hue = 0.0;
         UIColor *color = [UIColor colorWithHue:hue saturation:0.7 brightness:1.0 alpha:1.0];
         
-        CGContextSetStrokeColorWithColor(cacheContext, [color CGColor]);
-        CGContextSetLineCap(cacheContext, kCGLineCapRound);
-        CGContextSetLineWidth(cacheContext, 15);
+        CGContextSetStrokeColorWithColor(_cacheContext, [color CGColor]);
+        CGContextSetLineCap(_cacheContext, kCGLineCapRound);
+        CGContextSetLineWidth(_cacheContext, 15);
         
         
         double x0 = (point0.x > -1) ? point0.x : point1.x; //after 4 touches we should have a back anchor point, if not, use the current anchor point
@@ -135,9 +133,9 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
         float ctrl2_x = xm2 + (xc2 - xm2) * smooth_value + x2 - xm2;
         float ctrl2_y = ym2 + (yc2 - ym2) * smooth_value + y2 - ym2;
         
-        CGContextMoveToPoint(cacheContext, point1.x, point1.y);
-        CGContextAddCurveToPoint(cacheContext, ctrl1_x, ctrl1_y, ctrl2_x, ctrl2_y, point2.x, point2.y);
-        CGContextStrokePath(cacheContext);
+        CGContextMoveToPoint(_cacheContext, point1.x, point1.y);
+        CGContextAddCurveToPoint(_cacheContext, ctrl1_x, ctrl1_y, ctrl2_x, ctrl2_y, point2.x, point2.y);
+        CGContextStrokePath(_cacheContext);
         
         CGRect dirtyPoint1 = CGRectMake(point1.x-10, point1.y-10, 20, 20);
         CGRect dirtyPoint2 = CGRectMake(point2.x-10, point2.y-10, 20, 20);
@@ -150,7 +148,7 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
 
 - (void) drawRect:(CGRect)rect {
     CGContextRef context = UIGraphicsGetCurrentContext();
-    CGImageRef cacheImage = CGBitmapContextCreateImage(cacheContext);
+    CGImageRef cacheImage = CGBitmapContextCreateImage(_cacheContext);
     CGContextDrawImage(context, self.bounds, cacheImage);
     CGImageRelease(cacheImage);
 }
