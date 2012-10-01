@@ -17,4 +17,7 @@
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
+- (IBAction)changeColor:(id)sender;
+- (IBAction)eraseDrawing:(id)sender;
+
 @end

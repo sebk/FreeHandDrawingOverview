@@ -38,7 +38,6 @@
 
     if (self.detailItem) {
         [_detailItem setAutoresizingMask:UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth];
-        //[self.view addSubview:_detailItem];
         [_scrollView setZoomScale:1.0f];
         [_scrollView addSubview:_detailItem];
     }
@@ -54,7 +53,7 @@
     _scrollView.minimumZoomScale = 1.0f;
     _scrollView.maximumZoomScale = 5.0f;
     
-    UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"picture"]];
+    //UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"picture"]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -103,4 +102,26 @@
     
 }
 
+- (IBAction)changeColor:(id)sender {
+    UIButton *button = (UIButton*)sender;
+    switch (button.tag) {
+        case 1: //red
+            _detailItem.lineColor = [UIColor redColor];
+            break;
+            
+        case 2: //green
+            _detailItem.lineColor = [UIColor greenColor];
+            break;
+            
+        case 3: //blue
+            _detailItem.lineColor = [UIColor blueColor];
+            break;
+            
+        default:
+            break;
+    }
+}
+
+- (IBAction)eraseDrawing:(id)sender {
+}
 @end
