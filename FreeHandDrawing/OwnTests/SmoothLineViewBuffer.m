@@ -21,7 +21,7 @@ CGPoint midPoint(CGPoint p1, CGPoint p2);
 static const CGFloat kPointMinDistance = 5;
 static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDistance;
 
-
+/*
 - (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     
@@ -30,10 +30,12 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
         self.lineColor = DEFAULT_COLOR;
         
         offScreenBuffer = [self setupBuffer];
+        _path = CGPathCreateMutable();
     }
     
     return self;
 }
+ */
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -41,7 +43,9 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
     if (self) {
         self.lineWidth = DEFAULT_WIDTH;
         self.lineColor = DEFAULT_COLOR;
+        
         offScreenBuffer = [self setupBuffer];
+        _path = CGPathCreateMutable();
         
     }
     
@@ -102,6 +106,7 @@ CGPoint middlePoint(CGPoint p1, CGPoint p2) {
     currentPoint = [touch locationInView:self];
     
     [self drawToBuffer];
+    
 }
 
 
@@ -120,6 +125,12 @@ CGPoint middlePoint(CGPoint p1, CGPoint p2) {
     CGContextMoveToPoint(offScreenBuffer, mid1.x, mid1.y);
     CGContextAddQuadCurveToPoint(offScreenBuffer, previousPoint1.x, previousPoint1.y, mid2.x, mid2.y);
     CGContextDrawPath(offScreenBuffer, kCGPathStroke);
+    
+    
+    
+    CGPathMoveToPoint(_path, NULL, mid1.x, mid1.y);
+
+    
     
     
     CGRect bounds = CGContextGetClipBoundingBox(offScreenBuffer);

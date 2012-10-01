@@ -32,10 +32,13 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
         self.lineWidth = DEFAULT_WIDTH;
         self.lineColor = DEFAULT_COLOR;
 		_path = CGPathCreateMutable();
+        
+        self.backgroundColor = [UIColor yellowColor];
     }
     
     return self;
 }
+ 
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -45,6 +48,7 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
         self.lineColor = DEFAULT_COLOR;
 		_path = CGPathCreateMutable();
         
+        self.backgroundColor = [UIColor yellowColor];
     }
     
     return self;
@@ -58,6 +62,8 @@ CGPoint midPoint(CGPoint p1, CGPoint p2) {
 
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    NSLog(@"touchesBegan");
+    
     UITouch *touch = [touches anyObject];
     
     previousPoint1 = [touch previousLocationInView:self];
@@ -68,6 +74,8 @@ CGPoint midPoint(CGPoint p1, CGPoint p2) {
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    NSLog(@"touchesMoved");
+    
     UITouch *touch = [touches anyObject];
     
     CGPoint point = [touch locationInView:self];
@@ -75,6 +83,7 @@ CGPoint midPoint(CGPoint p1, CGPoint p2) {
     CGFloat dx = point.x - currentPoint.x;
     CGFloat dy = point.y - currentPoint.y;
     if ((dx * dx + dy * dy) < kPointMinDistanceSquared) {
+        NSLog(@"point not far away. RETURN");
         return;
     }
     
@@ -104,8 +113,8 @@ CGPoint midPoint(CGPoint p1, CGPoint p2) {
 
 
 - (void)drawRect:(CGRect)rect {
-    [[UIColor whiteColor] set];
-    UIRectFill(rect);
+    //[[UIColor whiteColor] set];
+    //UIRectFill(rect);
     
     
     NSLog(@"RECT TO DRAW: %@", NSStringFromCGRect(rect));
@@ -113,11 +122,10 @@ CGPoint midPoint(CGPoint p1, CGPoint p2) {
     
     CGContextRef context = UIGraphicsGetCurrentContext();
     
-    CGContextSaveGState(UIGraphicsGetCurrentContext());
     
     
     CGContextAddPath(context, _path);
-    
+
     CGContextSetLineCap(context, kCGLineCapRound);
     CGContextSetLineJoin(context, kCGLineJoinRound);
     CGContextSetAllowsAntialiasing(context, true);
@@ -128,8 +136,16 @@ CGPoint midPoint(CGPoint p1, CGPoint p2) {
     CGContextSetStrokeColorWithColor(context, self.lineColor.CGColor);
     CGContextStrokePath(context);
     
-    CGContextRestoreGState(UIGraphicsGetCurrentContext());
     
+    
+    /*
+    CGContextAddPath(context, _path);
+    CGContextSetLineCap(context, kCGLineCapRound);
+    CGContextSetLineWidth(context, self.lineWidth);
+    CGContextSetStrokeColorWithColor(context, self.lineColor.CGColor);
+    
+    CGContextStrokePath(context);
+    */
 }
 -(void)dealloc {
 	CGPathRelease(_path);

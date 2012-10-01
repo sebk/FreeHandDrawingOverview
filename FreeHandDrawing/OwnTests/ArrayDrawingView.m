@@ -19,7 +19,7 @@ static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDis
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        pathArray = [NSMutableArray array];
+        pathArray = [NSMutableArray arrayWithCapacity:100];
         self.lineWidth = DEFAULT_WIDTH;
         self.lineColor = DEFAULT_COLOR;
         self.backgroundColor = [UIColor whiteColor];

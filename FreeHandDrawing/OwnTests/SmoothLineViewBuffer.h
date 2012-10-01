@@ -18,7 +18,7 @@
     CGContextRef offScreenBuffer;
 }
 
-
+@property (nonatomic, readwrite) CGMutablePathRef path;
 
 -(void)initNewBuffer;
 

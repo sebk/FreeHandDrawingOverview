@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #define DEFAULT_COLOR [UIColor blackColor]
-#define DEFAULT_WIDTH 10.0f
+#define DEFAULT_WIDTH 5.0f
 
 //A view to set some attributes and/or methods for all Views that are used for drawing
 @interface PaintSuperview : UIView
