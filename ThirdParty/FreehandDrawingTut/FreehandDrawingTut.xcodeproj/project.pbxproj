@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2BE019F1626FBCC001C3A35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BE019E1626FBCC001C3A35 /* UIKit.framework */; };
+		A2BE01A11626FBCC001C3A35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BE01A01626FBCC001C3A35 /* Foundation.framework */; };
+		A2BE01A31626FBCC001C3A35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BE01A21626FBCC001C3A35 /* CoreGraphics.framework */; };
+		A2BE01A91626FBCC001C3A35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2BE01A71626FBCC001C3A35 /* InfoPlist.strings */; };
+		A2BE01AB1626FBCC001C3A35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BE01AA1626FBCC001C3A35 /* main.m */; };
+		A2BE01AF1626FBCC001C3A35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BE01AE1626FBCC001C3A35 /* AppDelegate.m */; };
+		A2BE01B21626FBCC001C3A35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BE01B11626FBCC001C3A35 /* ViewController.m */; };
+		A2BE01B51626FBCC001C3A35 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2BE01B31626FBCC001C3A35 /* ViewController.xib */; };
+		A2BE01BD162705FC001C3A35 /* LinearInterpView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BE01BC162705FC001C3A35 /* LinearInterpView.m */; };
+		A2BE01C016282975001C3A35 /* CachedLIView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BE01BF16282975001C3A35 /* CachedLIView.m */; };
+		A2BE01C416283A34001C3A35 /* BezierInterpView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BE01C316283A34001C3A35 /* BezierInterpView.m */; };
+		A2BE01C916284C95001C3A35 /* SmoothedBIView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BE01C816284C95001C3A35 /* SmoothedBIView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2BE019A1626FBCC001C3A35 /* FreehandDrawingTut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreehandDrawingTut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BE019E1626FBCC001C3A35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2BE01A01626FBCC001C3A35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2BE01A21626FBCC001C3A35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2BE01A61626FBCC001C3A35 /* FreehandDrawingTut-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreehandDrawingTut-Info.plist"; sourceTree = "<group>"; };
+		A2BE01A81626FBCC001C3A35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2BE01AA1626FBCC001C3A35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2BE01AC1626FBCC001C3A35 /* FreehandDrawingTut-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FreehandDrawingTut-Prefix.pch"; sourceTree = "<group>"; };
+		A2BE01AD1626FBCC001C3A35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2BE01AE1626FBCC001C3A35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2BE01B01626FBCC001C3A35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2BE01B11626FBCC001C3A35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2BE01B41626FBCC001C3A35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A2BE01BB162705FC001C3A35 /* LinearInterpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearInterpView.h; sourceTree = "<group>"; };
+		A2BE01BC162705FC001C3A35 /* LinearInterpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearInterpView.m; sourceTree = "<group>"; };
+		A2BE01BE16282975001C3A35 /* CachedLIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedLIView.h; sourceTree = "<group>"; };
+		A2BE01BF16282975001C3A35 /* CachedLIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedLIView.m; sourceTree = "<group>"; };
+		A2BE01C216283A34001C3A35 /* BezierInterpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierInterpView.h; sourceTree = "<group>"; };
+		A2BE01C316283A34001C3A35 /* BezierInterpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierInterpView.m; sourceTree = "<group>"; };
+		A2BE01C716284C95001C3A35 /* SmoothedBIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothedBIView.h; sourceTree = "<group>"; };
+		A2BE01C816284C95001C3A35 /* SmoothedBIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothedBIView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2BE01971626FBCC001C3A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BE019F1626FBCC001C3A35 /* UIKit.framework in Frameworks */,
+				A2BE01A11626FBCC001C3A35 /* Foundation.framework in Frameworks */,
+				A2BE01A31626FBCC001C3A35 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2BE018F1626FBCC001C3A35 = {
+			isa = PBXGroup;
+			children = (
+				A2BE01A41626FBCC001C3A35 /* FreehandDrawingTut */,
+				A2BE019D1626FBCC001C3A35 /* Frameworks */,
+				A2BE019B1626FBCC001C3A35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2BE019B1626FBCC001C3A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE019A1626FBCC001C3A35 /* FreehandDrawingTut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2BE019D1626FBCC001C3A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE019E1626FBCC001C3A35 /* UIKit.framework */,
+				A2BE01A01626FBCC001C3A35 /* Foundation.framework */,
+				A2BE01A21626FBCC001C3A35 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2BE01A41626FBCC001C3A35 /* FreehandDrawingTut */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE01C116283963001C3A35 /* Views */,
+				A2BE01AD1626FBCC001C3A35 /* AppDelegate.h */,
+				A2BE01AE1626FBCC001C3A35 /* AppDelegate.m */,
+				A2BE01B01626FBCC001C3A35 /* ViewController.h */,
+				A2BE01B11626FBCC001C3A35 /* ViewController.m */,
+				A2BE01B31626FBCC001C3A35 /* ViewController.xib */,
+				A2BE01A51626FBCC001C3A35 /* Supporting Files */,
+			);
+			path = FreehandDrawingTut;
+			sourceTree = "<group>";
+		};
+		A2BE01A51626FBCC001C3A35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE01A61626FBCC001C3A35 /* FreehandDrawingTut-Info.plist */,
+				A2BE01A71626FBCC001C3A35 /* InfoPlist.strings */,
+				A2BE01AA1626FBCC001C3A35 /* main.m */,
+				A2BE01AC1626FBCC001C3A35 /* FreehandDrawingTut-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2BE01C116283963001C3A35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE01BE16282975001C3A35 /* CachedLIView.h */,
+				A2BE01BF16282975001C3A35 /* CachedLIView.m */,
+				A2BE01C716284C95001C3A35 /* SmoothedBIView.h */,
+				A2BE01C816284C95001C3A35 /* SmoothedBIView.m */,
+				A2BE01C216283A34001C3A35 /* BezierInterpView.h */,
+				A2BE01C316283A34001C3A35 /* BezierInterpView.m */,
+				A2BE01BB162705FC001C3A35 /* LinearInterpView.h */,
+				A2BE01BC162705FC001C3A35 /* LinearInterpView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2BE01991626FBCC001C3A35 /* FreehandDrawingTut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BE01B81626FBCC001C3A35 /* Build configuration list for PBXNativeTarget "FreehandDrawingTut" */;
+			buildPhases = (
+				A2BE01961626FBCC001C3A35 /* Sources */,
+				A2BE01971626FBCC001C3A35 /* Frameworks */,
+				A2BE01981626FBCC001C3A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreehandDrawingTut;
+			productName = FreehandDrawingTut;
+			productReference = A2BE019A1626FBCC001C3A35 /* FreehandDrawingTut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2BE01911626FBCC001C3A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A2BE01941626FBCC001C3A35 /* Build configuration list for PBXProject "FreehandDrawingTut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2BE018F1626FBCC001C3A35;
+			productRefGroup = A2BE019B1626FBCC001C3A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2BE01991626FBCC001C3A35 /* FreehandDrawingTut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2BE01981626FBCC001C3A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BE01A91626FBCC001C3A35 /* InfoPlist.strings in Resources */,
+				A2BE01B51626FBCC001C3A35 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2BE01961626FBCC001C3A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BE01AB1626FBCC001C3A35 /* main.m in Sources */,
+				A2BE01AF1626FBCC001C3A35 /* AppDelegate.m in Sources */,
+				A2BE01B21626FBCC001C3A35 /* ViewController.m in Sources */,
+				A2BE01BD162705FC001C3A35 /* LinearInterpView.m in Sources */,
+				A2BE01C016282975001C3A35 /* CachedLIView.m in Sources */,
+				A2BE01C416283A34001C3A35 /* BezierInterpView.m in Sources */,
+				A2BE01C916284C95001C3A35 /* SmoothedBIView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2BE01A71626FBCC001C3A35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2BE01A81626FBCC001C3A35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2BE01B31626FBCC001C3A35 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2BE01B41626FBCC001C3A35 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2BE01B61626FBCC001C3A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A2BE01B71626FBCC001C3A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2BE01B91626FBCC001C3A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sebastian Kruschwitz (AQU75NW86Z)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreehandDrawingTut/FreehandDrawingTut-Prefix.pch";
+				INFOPLIST_FILE = "FreehandDrawingTut/FreehandDrawingTut-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DC20E656-C1FC-4210-AF0F-097743654548";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2BE01BA1626FBCC001C3A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreehandDrawingTut/FreehandDrawingTut-Prefix.pch";
+				INFOPLIST_FILE = "FreehandDrawingTut/FreehandDrawingTut-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2BE01941626FBCC001C3A35 /* Build configuration list for PBXProject "FreehandDrawingTut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BE01B61626FBCC001C3A35 /* Debug */,
+				A2BE01B71626FBCC001C3A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2BE01B81626FBCC001C3A35 /* Build configuration list for PBXNativeTarget "FreehandDrawingTut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BE01B91626FBCC001C3A35 /* Debug */,
+				A2BE01BA1626FBCC001C3A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2BE01911626FBCC001C3A35 /* Project object */;
+}
