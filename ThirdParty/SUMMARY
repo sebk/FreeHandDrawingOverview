@@ -46,3 +46,7 @@ https://github.com/levinunnink/Smooth-Line-View
 git://github.com/levinunnink/Smooth-Line-View.git
 
 
+FreeHandDrawingTut:
+Using the SmoothedBIView class gives a really nice drawing. Caching in an image is implemented really nice and short.
+http://mobile.tutsplus.com/tutorials/iphone/ios-sdk_freehand-drawing/
+

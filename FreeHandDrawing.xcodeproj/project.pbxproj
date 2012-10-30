@@ -94,6 +94,13 @@
 			remoteGlobalIDString = FBD0E92915457AF400FBE81E;
 			remoteInfo = "Smooth Drawing";
 		};
+		968BEEED163A7D1400E3A876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968BEEE5163A7D1400E3A876 /* FreehandDrawingTut.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A2BE019A1626FBCC001C3A35;
+			remoteInfo = FreehandDrawingTut;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +123,7 @@
 		966FA4021615948700A1C5F2 /* PaintingSample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PaintingSample.xcodeproj; path = PaintingSampleSmooth/PaintingSample.xcodeproj; sourceTree = "<group>"; };
 		966FA40C1615949200A1C5F2 /* RedoUndo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RedoUndo.xcodeproj; path = RedoUndo/RedoUndo.xcodeproj; sourceTree = "<group>"; };
 		966FA4161615949700A1C5F2 /* Smooth Drawing.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Smooth Drawing.xcodeproj"; path = "smooth-drawing/Smooth Drawing.xcodeproj"; sourceTree = "<group>"; };
+		968BEEE5163A7D1400E3A876 /* FreehandDrawingTut.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FreehandDrawingTut.xcodeproj; path = FreehandDrawingTut/FreehandDrawingTut.xcodeproj; sourceTree = "<group>"; };
 		9695115B1615C7050032397D /* PaintSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintSuperview.h; path = OwnTests/PaintSuperview.h; sourceTree = "<group>"; };
 		9695115C1615C7050032397D /* PaintSuperview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintSuperview.m; path = OwnTests/PaintSuperview.m; sourceTree = "<group>"; };
 		969511661615CCED0032397D /* picture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = picture.jpg; sourceTree = "<group>"; };
@@ -248,10 +256,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		968BEEE6163A7D1400E3A876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				968BEEEE163A7D1400E3A876 /* FreehandDrawingTut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9698107E1613097500819D10 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
 				9698129B1613097500819D10 /* SUMMARY */,
+				968BEEE5163A7D1400E3A876 /* FreehandDrawingTut.xcodeproj */,
 				966FA4161615949700A1C5F2 /* Smooth Drawing.xcodeproj */,
 				966FA40C1615949200A1C5F2 /* RedoUndo.xcodeproj */,
 				966FA4021615948700A1C5F2 /* PaintingSample.xcodeproj */,
@@ -374,6 +391,10 @@
 					ProjectRef = 966FA3E41615947900A1C5F2 /* DrawLines.xcodeproj */;
 				},
 				{
+					ProductGroup = 968BEEE6163A7D1400E3A876 /* Products */;
+					ProjectRef = 968BEEE5163A7D1400E3A876 /* FreehandDrawingTut.xcodeproj */;
+				},
+				{
 					ProductGroup = 966FA3EF1615947F00A1C5F2 /* Products */;
 					ProjectRef = 966FA3EE1615947F00A1C5F2 /* GLPaint.xcodeproj */;
 				},
@@ -471,6 +492,13 @@
 			fileType = wrapper.application;
 			path = "Smooth Drawing.app";
 			remoteRef = 966FA41E1615949700A1C5F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		968BEEEE163A7D1400E3A876 /* FreehandDrawingTut.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FreehandDrawingTut.app;
+			remoteRef = 968BEEED163A7D1400E3A876 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
