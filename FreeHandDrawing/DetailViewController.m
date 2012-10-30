@@ -97,7 +97,7 @@
 }
 
 -(void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(float)scale {
-    _detailItem.lineWidth =  (-scale * 10) + 20;
+    //_detailItem.lineWidth =  (-scale * 10) + 20;
     [_detailItem setNeedsDisplay];
     
 }

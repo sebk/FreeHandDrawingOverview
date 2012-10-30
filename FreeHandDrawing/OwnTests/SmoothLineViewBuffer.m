@@ -126,13 +126,8 @@ CGPoint middlePoint(CGPoint p1, CGPoint p2) {
     CGContextAddQuadCurveToPoint(offScreenBuffer, previousPoint1.x, previousPoint1.y, mid2.x, mid2.y);
     CGContextDrawPath(offScreenBuffer, kCGPathStroke);
     
-    
-    
     CGPathMoveToPoint(_path, NULL, mid1.x, mid1.y);
 
-    
-    
-    
     CGRect bounds = CGContextGetClipBoundingBox(offScreenBuffer);
     CGRect drawBox = bounds;
     drawBox.origin.x -= self.lineWidth * 2.0;
@@ -152,6 +147,7 @@ CGPoint middlePoint(CGPoint p1, CGPoint p2) {
     [[UIColor whiteColor] set];
     UIRectFill(rect);
     
+    
     CGContextSaveGState(offScreenBuffer);
     
     CGImageRef cgImage = CGBitmapContextCreateImage(offScreenBuffer);
@@ -161,6 +157,8 @@ CGPoint middlePoint(CGPoint p1, CGPoint p2) {
     [uiImage drawInRect:self.bounds];
     
     CGContextRestoreGState(offScreenBuffer);
+
+    
 }
 
 
