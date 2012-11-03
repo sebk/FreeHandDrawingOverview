@@ -21,22 +21,6 @@ CGPoint midPoint(CGPoint p1, CGPoint p2);
 static const CGFloat kPointMinDistance = 5;
 static const CGFloat kPointMinDistanceSquared = kPointMinDistance * kPointMinDistance;
 
-/*
-- (id)initWithCoder:(NSCoder *)aDecoder {
-    self = [super initWithCoder:aDecoder];
-    
-    if (self) {
-        self.lineWidth = DEFAULT_WIDTH;
-        self.lineColor = DEFAULT_COLOR;
-        
-        offScreenBuffer = [self setupBuffer];
-        _path = CGPathCreateMutable();
-    }
-    
-    return self;
-}
- */
-
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     
@@ -139,10 +123,6 @@ CGPoint middlePoint(CGPoint p1, CGPoint p2) {
 }
 
 - (void)drawRect:(CGRect)rect {
-    //if (rect.size.width == 1024 && rect.size.height == 768) {
-    //    NSLog(@"drawRect: %@", NSStringFromCGRect(rect));
-    //    rect = CGRectZero;
-    //}
     
     [[UIColor whiteColor] set];
     UIRectFill(rect);

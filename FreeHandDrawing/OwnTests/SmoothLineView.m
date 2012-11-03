@@ -152,5 +152,10 @@ CGPoint midPoint(CGPoint p1, CGPoint p2) {
 }
 
 
+-(void)layoutSubviews {
+    [self setNeedsDisplay];
+}
+
+
 
 @end
