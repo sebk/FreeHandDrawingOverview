@@ -19,6 +19,7 @@ GLPaint:
 Apple demo for OpenGL
 http://developer.apple.com/library/ios/#samplecode/GLPaint/Introduction/Intro.html
 
+
 LineSmoothing: 
 Smooth the line after drawing, becomes laggy when drawing the complete screen, but the smoothing algorithm still remains very good
 http://tonyngo.net/2011/09/smooth-line-drawing-in-ios/
@@ -30,8 +31,7 @@ http://blog.effectiveui.com/?p=8105
 
 
 RedoUndo: 
-UIBezierPath, drawing is very cornered, undo and redo function, becomes very laggy when draw over whole 
-screen
+UIBezierPath, drawing is very cornered, undo and redo function, becomes very laggy when draw over whole screen
 http://soulwithmobiletechnology.blogspot.de/2011/06/redo-undo-in-paint-feature.html
 
 Smooth-drawing: 
