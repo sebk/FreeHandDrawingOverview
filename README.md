@@ -23,6 +23,4 @@ When I can't find the git repo anymore I included the code directly.
 Please notify me when you don't want to be included in this repository.
 
 
-## TODO
-
-* Integrate Code from Erica Sadun
+To run a specific project choose the target you want and start it.
